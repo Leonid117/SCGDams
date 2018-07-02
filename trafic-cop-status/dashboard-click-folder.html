@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
 
-    <link href="dashboard.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
     <link href="fonts/roboto.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <link href="dashboard-click-folder.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/dashboard-click-folder.css" rel="stylesheet">
 </head>
 
 <body class="trafic-cop-status">
@@ -96,16 +96,22 @@
                 </a>
                 <div class="dropdown-menu dropdown-menu-folder ">
                     <a class="dropdown-item" href="#">
-                        <img class="item-img" src="img/folder.png" alt="">Printing <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
-                        <div class="remove-item">&times;</div></div>
+                        <img class="item-img" src="img/folder.png" alt="">Printing
+                        <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
+                            <div class="remove-item">&times;</div>
+                        </div>
                     </a>
                     <a class="dropdown-item" href="#">
-                        <img class="item-img" src="img/folder.png" alt="">Printing <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
-                        <div class="remove-item">&times;</div></div>
+                        <img class="item-img" src="img/folder.png" alt="">Printing
+                        <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
+                            <div class="remove-item">&times;</div>
+                        </div>
                     </a>
                     <a class="dropdown-item" href="#">
-                        <img class="item-img" src="img/folder.png" alt="">Printing <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
-                        <div class="remove-item">&times;</div></div>
+                        <img class="item-img" src="img/folder.png" alt="">Printing
+                        <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
+                            <div class="remove-item">&times;</div>
+                        </div>
                     </a>
                     <div class="dropdown-menu-folder-footer">
                         <button class="dropdown-menu-folder-checkout">checkout</button>
@@ -433,8 +439,6 @@
 
             </div>
         </div>
-
-
     </div>
     <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12 right-block">
         <div class="links-block">
@@ -465,91 +469,17 @@
         </div>
     </div>
 
-
+</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="jquery-ui.js"></script>
+    <script src="js/jquery-ui.js"></script>
 
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="bootstrap.min.js"></script>
-    <script src="ie10-viewport-bug-workaround.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
-
-<script>
-    $(document).ready(function () {
-        $("#resizable").resizable({
-            resize: function (event, ui) {
-                ui.size.height = ui.originalSize.height;
-            }
-        });
-
-        var mouseDown;
-        var mouseMoveSidebar;
-
-        $('.ui-resizable-handle').mousedown(function () {
-            mouseDown = true;
-        });
-        $(window).mousemove(function () {
-            if (mouseDown) {
-                mouseMoveSidebar = true;
-            }
-        });
-        $(window).mouseup(function () {
-            if (mouseMoveSidebar && mouseDown) {
-                console.log('move');
-                console.log(mouseDown);
-            }
-            else if (mouseDown && !mouseMoveSidebar) {
-                $('.sidebar').toggleClass('close-sidebar');
-                if ($('.sidebar').hasClass('close-sidebar')) {
-                    $('.sidebar').css("width", "65");
-                }
-                else {
-                    $('.sidebar').css("width", "auto");
-
-                }
-            }
-            mouseDown = false;
-            mouseMoveSidebar = false;
-
-        });
-
-        $(window).bind("resize", function () {
-            if ($('.sidebar').width() < 70) {
-                $('.sidebar').addClass('close-sidebar')
-            }
-        });
-        if ($('.sidebar').width() < 70) {
-            $('.sidebar').addClass('close-sidebar')
-        }
-
-        $('.sidebar').bind("resize", function () {
-            if ($(this).width() < 70) {
-                $(this).addClass('close-sidebar')
-            } else {
-                $(this).removeClass('close-sidebar')
-            }
-        });
-        $('.animated-icon4').click(function () {
-            $(this).toggleClass('open');
-        });
-        jQuery(".col3-status").click(function () {
-            jQuery(this).parent().find('.context-menu-status').removeClass('hide').addClass('context-menu-status-open');
-        });
-        jQuery(".context-menu-status-close").click(function () {
-            jQuery(this).parent('.context-menu-status').addClass('hide');
-        });
-        jQuery(function ($) {
-            $(document).mouseup(function (e) { // событие клика по веб-документу
-                var div = $(".context-menu-status.context-menu-status-open"); // тут указываем ID элемента
-                if (!div.is(e.target) // если клик был не по нашему блоку
-                    && div.has(e.target).length === 0) { // и не по его дочерним элементам
-                    div.addClass('hide'); // скрываем его
-                }
-            });
-        });
-    });
-</script>
