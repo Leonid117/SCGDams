@@ -1,0 +1,107 @@
+@font-face { 
+  font-family: 'carme-regular'; 
+  src: url('fonts/carme-regular.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */ 
+       url('fonts/carme-regular.otf') format('woff'); 
+  font-weight: normal; 
+  font-style: normal; 
+}
+body{
+	background: 0
+    height: auto;
+}
+.site-wrapper {
+	background-image: url(img/bg.png);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0 auto;
+        box-shadow: none;
+        -webkit-background-size: 100%;
+    background-size: 100%;
+}
+.site-wrapper .cover-container{
+    width: 30%;
+    min-width: 210px;
+}
+.cover-container img{
+    width: 46%;
+    margin: 0 auto;
+    display: block;
+}
+.site-wrapper-inner {
+        vertical-align: top;
+    padding: 15vw 0;
+}
+.cover {
+    padding: 7% 0 21% 0;
+    background: transparent;
+}
+
+.cover  input{
+    font-family: carme-regular;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    color: black;
+    width: 20vw;
+    height: 3.4vw;
+    margin: 0.5vw 0 0.9vw 0;
+    font-size: 1.3vw;
+}
+.cover  input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #000;
+}
+
+.cover  input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #000;
+}
+
+.cover  input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #000;
+}
+.cover  input:focus{
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.btn-login {
+   background: #1d1d1e;
+    display: block;
+    width: 10vw;
+    height: 3.4vw;
+    padding: 1.1vw 0 !important;
+    margin: 3vw auto .3vw auto;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 7vw;
+    box-shadow: 0px 17px 100px rgba(0,0,0,.5);
+    border: 0;
+    letter-spacing: 1px;
+    font-family: carme-regular;
+        font-size: 0.97vw;
+}
+.btn-login:hover{
+    border:0;
+}
+@media (max-width: 1024px){
+    .site-wrapper{
+            -webkit-background-size: cover;
+    background-size: cover;
+    }
+    .site-wrapper-inner {
+    vertical-align: middle;
+    }
+    .cover input {
+    width: 80%;
+    height: 50px;
+    font-size: 14px;
+    }
+    .btn-login {
+    width: 120px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 !important;
+    font-size: 13px;
+    }
+
+}
