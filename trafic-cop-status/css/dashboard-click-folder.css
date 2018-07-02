@@ -1,0 +1,147 @@
+.trafic-cop-status .main-block-header h1 span{
+    color: #ccc;
+}
+.main-block-header{
+    padding-left: 35px;
+    padding-top: 13px;
+}
+.looking_for{
+    display: inline-block;
+    width: 100%;
+    background: #f7f9fc;
+    border: 1px solid #e1e4eb;
+    height: 72px;
+    line-height: 70px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+body{
+    background: #fff;
+}
+.buttons{
+    float: right;
+}
+.buttons button{
+    height: 45px;
+    line-height: 41px;
+    border-radius: 40px;
+    margin: 0 0 0 5px;
+}
+.buttons .transparent-button{
+    color: black;
+    width: 90px;
+    background: transparent;
+    border: 1px solid #adadbd;
+}
+.buttons .blue-button{
+    width: 140px;
+    background: #5081fb;
+    color: #fff;
+    border: 1px solid #5081fb;
+}
+.trafic-cop-status .main-block-header h1 {
+    margin: 30px 0 0 0;
+}
+.small-chevron{
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 17px;
+    margin: 0 0 0 0;
+    position: relative;
+    top: -3px;
+    left: 20px;
+}
+.fold-grid{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+.fold-item{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin: 0 0 83px 9%;
+    position: relative;
+    max-width: 178px;
+}
+.fold-item-head .fa-ellipsis-h{
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    border: 1px solid;
+    margin: 8px 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fold-item-head .link{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.link img{
+    box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+.fold-item-name{
+    text-align: center;
+    margin: 35px 0 0 0;
+    font-size: 15px;
+}
+
+.fold-item-name{
+    text-align: center;
+    margin: 33px 0 0 0;
+    font-size: 16px;
+}
+.link{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.favorite{
+    display: none;
+}
+@media (max-width: 1440px){
+    .main-block {
+        padding-left: 80px;
+    }
+}
+@media (max-width: 768px){
+    .main-block {
+        padding-left: 0;
+    }
+    .looking_for {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .buttons .transparent-button{
+        width: 60px;
+    }
+    .buttons .blue-button {
+        width: 85px;
+    }
+    .link img{
+        width: 100%;
+    }
+    .buttons button {
+        font-size: 10px;
+        height: 35px;
+        line-height: 31px;
+        border-radius: 40px;
+        margin: 0;
+    }
+}
+
+
+
+
+
+

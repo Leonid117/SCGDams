@@ -1,0 +1,89 @@
+.site-wrapper {
+    background-image: url(../img/create-profile-bg.png);
+}
+.cover-container img {
+    width: 40%;
+    margin: 0 auto 30px auto;
+}
+.site-wrapper-inner {
+    padding: 7vw 0 0 0;
+}
+.input-container {
+    display: inline-block;
+    width: 66%;
+    text-align: left;
+    min-width: 200px;
+}
+label {
+    font-size: 12px;
+    font-weight: 100;
+    position: relative;
+    top: 25px;
+    left: 17px;
+    background: white;
+    padding: 0 4px;
+    color: #bfbfcb;
+    text-shadow: none;
+}
+select, input[type="text"], input[type="password"] {
+    border: 2px solid #e1e4eb;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 18px;
+    font-size: 16px;
+    font-weight: 100;
+    height: 3.12vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.25vw;
+    min-height: 35px;
+}
+.already-acc{
+    color: black;
+    margin-top: 4vw;
+    margin-bottom: 6vw;
+}
+.already-acc a{
+    color: #f6255a;
+}
+.last-step{
+    color: #bfbfcb;
+    font-size: 12px;
+}
+.last-step:hover{
+    color: #000;
+}
+.last-step i{
+    color: black;
+    border: 1px solid;
+    width: 33px;
+    height: 33px;
+    line-height: 31px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 14px;
+    margin: 0 6px 0 0;
+}
+.cover {
+    padding: 7% 0 10% 0;
+}
+.cover input:focus {
+    border: 2px solid #e1e4eb;
+}
+@media (max-width: 1550px) {
+    .already-acc {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+}
+
+@media (max-width: 1440px) {
+label {
+    font-size: 10px;
+    top: 20px;
+}
+}
+body {
+     text-shadow: none;
+}

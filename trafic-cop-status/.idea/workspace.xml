@@ -45,11 +45,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trafic-cop-status.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="trafic-cop-status.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trafic-cop-status.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1190">
               <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="818" column="8" lean-forward="false" selection-start-line="818" selection-start-column="8" selection-end-line="818" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,7 +141,6 @@
         <option value="$PROJECT_DIR$/dashboard-click-folder.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/new-contact-page.css" />
-        <option value="$PROJECT_DIR$/js/script.js" />
         <option value="$PROJECT_DIR$/new-contact-page.html" />
         <option value="$PROJECT_DIR$/search-companies.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -133,6 +152,8 @@
         <option value="$PROJECT_DIR$/css/common-style.css" />
         <option value="$PROJECT_DIR$/dams-final-homepage.html" />
         <option value="$PROJECT_DIR$/traffic-cop-homepage.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
       </list>
     </option>
   </component>
@@ -183,6 +204,11 @@
               <item name="trafic-cop-status" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="trafic-cop-status" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trafic-cop-status" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -194,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/ng/angular-tour-of-heroes" />
-    <property name="SearchEverywhereHistoryKey" value="sty&#9;FILE&#9;file://D:/OSPanel/domains/trafic-cop-status/style.css" />
+    <property name="SearchEverywhereHistoryKey" value="style&#9;FILE&#9;file://D:/OSPanel/domains/SCGDams/trafic-cop-status/css/style.css&#10;sty&#9;FILE&#9;file://D:/OSPanel/domains/trafic-cop-status/style.css" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,6 +241,9 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -240,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158609000" />
+    <option name="totallyTimeSpent" value="159111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,14 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="70" column="7" lean-forward="false" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/search-companies.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -587,14 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-93">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="89" column="44" lean-forward="false" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -687,6 +700,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1190">
           <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="818" column="8" lean-forward="false" selection-start-line="818" selection-start-column="8" selection-end-line="818" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,55 @@
+.site-wrapper {
+	background-image: url(../img/bg-dams-final-homepage.png);
+}
+.site-wrapper .cover-container {
+    background: white;
+    width: 21%;
+}
+.cover-container img {
+    width: 27%;
+    margin: 12% auto 12% auto;
+}
+.cover input {
+    font-size: 0.9vw;
+    width: 14vw;
+    display: block;
+    margin: 0 auto;
+}
+.btn-login {
+    width: 7vw;
+    height: 2.4vw;
+    line-height: 2.4vw;
+    padding: 0 !important;
+    margin: 2vw auto .3vw auto;
+    letter-spacing: 3px;
+    font-size: 0.57vw;
+}
+.create-account{
+    font-size: 0.5vw;
+    margin: 2.5vw 0 0 0;
+    display: block;
+    color: black;
+}
+.create-account:hover{
+    color: #000;
+}
+.cover {
+    padding: 7% 0 9% 0;
+}
+@media (max-width: 1024px) {
+    .cover input {
+        width: 80%;
+        height: 50px;
+        font-size: 14px;
+    }
+    .btn-login {
+        width: 120px;
+        line-height: 40px;
+        height: 40px;
+        padding: 0 !important;
+        font-size: 13px;
+    }
+    .create-account{
+        font-size: 13px;
+    }
+}
