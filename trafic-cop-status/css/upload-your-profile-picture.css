@@ -1,0 +1,45 @@
+.site-wrapper {
+    background-image: url(../img/upload-your-profile-picture-bg.png);
+}
+.cover-container img {
+    width: 40%;
+    margin: 0 auto 30px auto;
+}
+.site-wrapper-inner {
+    padding: 18.4vw 0 9vw 0;
+}
+body {
+     text-shadow: none;
+}
+.upload-file{
+    border: 1px solid #e1e4eb;
+    display: inline-block;
+    width: 50%;
+    margin: 1vw 0 0 0;
+    color: #e1e4eb;
+}
+.plus{
+    color: black;
+    border: 1px solid;
+    width: 4vw;
+    margin: 2vw auto 1vw auto;
+    height: 4vw;
+    line-height: 4vw;
+    font-size: 40px;
+    border-radius: 50%;
+}
+.upload-file p{
+    font-size: 11px;
+    margin-bottom: 10%;
+}
+.btn-login {
+    margin: 3vw auto 3.3vw auto;
+}
+.skip-for-now{
+    color: #000;
+}
+@media (max-width: 768px) {
+    .plus{
+        font-size: 15px;
+    }
+}
