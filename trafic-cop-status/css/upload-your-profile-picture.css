@@ -17,6 +17,7 @@ body {
     width: 50%;
     margin: 1vw 0 0 0;
     color: #e1e4eb;
+    cursor: pointer;
 }
 .plus{
     color: black;
@@ -36,6 +37,9 @@ body {
     margin: 3vw auto 3.3vw auto;
 }
 .skip-for-now{
+    color: #000;
+}
+.skip-for-now:hover{
     color: #000;
 }
 @media (max-width: 768px) {

@@ -30,7 +30,7 @@
             <img src="img/logo-dams-final-homepage.png">
             <form method="post">
               <input type="file" style="display: none;" name="file" />
-              <div class="upload-file">
+              <div class="upload-file" id="upload-file">
                 <div class="plus">+</div>
                 <p>Upload Your Profile Picture</p>
               </div>
@@ -56,7 +56,7 @@
 </html>
 <script>
   jQuery(document).ready(function () {
-      $("button").click(function(){
+      $("#upload-file").click(function(){
           $("input[type='file'").trigger('click');
       });
   })

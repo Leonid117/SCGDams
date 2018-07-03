@@ -14,8 +14,8 @@
       <file leaf-file-name="upload-your-profile-picture.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upload-your-profile-picture.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="385">
+              <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -26,8 +26,8 @@
       <file leaf-file-name="upload-your-profile-picture.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/upload-your-profile-picture.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            <state relative-caret-position="402">
+              <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -37,7 +37,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>labe</find>
       <find>Salutation</find>
       <find>Add fields</find>
       <find>Contact Type</find>
@@ -67,6 +66,7 @@
       <find>context</find>
       <find>url</find>
       <find>log</find>
+      <find>upload-file</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -207,12 +207,12 @@
       <workItem from="1530180717620" duration="13356000" />
       <workItem from="1530273112243" duration="4935000" />
       <workItem from="1530279872454" duration="19940000" />
-      <workItem from="1530646058623" duration="4640000" />
+      <workItem from="1530646058623" duration="4820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164595000" />
+    <option name="totallyTimeSpent" value="164775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/upload-your-profile-picture.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="43" />
+        <state relative-caret-position="385">
+          <caret line="58" column="21" lean-forward="false" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -466,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/upload-your-profile-picture.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        <state relative-caret-position="402">
+          <caret line="42" column="15" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="15" />
           <folding />
         </state>
       </provider>
