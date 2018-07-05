@@ -19,7 +19,7 @@
     <link href="css/dashboard.css" rel="stylesheet">
     <link href="fonts/roboto.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/new-contact-page.css" rel="stylesheet">
+    <link href="css/TrafficCop-DocumentSent.css" rel="stylesheet">
 </head>
 
 <body class="trafic-cop-status">
@@ -163,176 +163,148 @@
         <!--/.Navbar-->
     </div>
 
-    <div class="col-sm-10 col-lg-10 col-md-10 col-xs-12 main-block main-block-sidebar-open">
+    <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12 main-block main-block-sidebar-open">
         <div class="row main-block-header">
-            <h1>New Contact</h1>
-            <button class="add create-invoice"><span>+</span>Create Invoice</button>
-        </div>
-        <div class="row brdb">
-            <div class="profile-picture">
-                <span>Profile Picture</span>
-                <img src="img/profile-picture.png" alt="">
-            </div>
-            <div class="input-container Salutation" name="Salutation">
-                <label for="Salutation">Salutation</label>
-                <select name="Salutation" id="Salutation">
-                    <option value="">Mr.</option>
-                    <option value="">Ms.</option>
-                </select>
-            </div>
-            <div class="input-form-name">
-                <div class="input-container">
-                    <label for="firstName">First Name</label><input value="Chris" id="firstName" type="text"
-                                                                    class="firstName">
-                </div>
-                <div class="input-container">
-                    <label for="lastName">Last Name</label><input value="Toomey" id="lastName" type="text"
-                                                                  class="lastName">
-                </div>
-            </div>
-        </div>
-        <div class=" row company">
-            <h6>Company</h6>
-            <div class="input-container" action="">
-                <label for="companyName">Company Name</label>
-                <input style="background-image:url(img/ParamountStudioLogo.png);" value="Paramount Studios"
-                       id="companyName" type="text" class="companyName">
-            </div>
-            <button class="add create-invoice upl-img">Upload Image</button>
-            <div class="input-container">
-                <label for="salesRepresentative">Sales Representative</label>
-                <select style="background-image:url(img/selectface.png);" name="salesRepresentative"
-                        id="salesRepresentative">
-                    <option value="">Jonas Hanlin</option>
-                    <option value="">Jonas Hanlin</option>
-                </select>
-            </div>
-            <div class="input-container">
-                <label for="contactEmail">Contact E-mail</label><input id="contactEmail" type="text"
-                                                                       class="contactEmail">
-            </div>
-        </div>
-        <div class="row phoneAndWebsite brdb">
-            <h6>Phone and website</h6>
-            <div class="input-container">
-                <label for="workPhone">Work Phone</label><input id="workPhone" type="text" class="workPhone">
-            </div>
-            <div class="input-container">
-                <label for="Mobile">Mobile</label><input id="Mobile" type="text" class="Mobile">
-            </div>
-            <a class="Add-fields" href="#"><span>+</span>Add fields</a>
-            <div class="input-container">
-                <label for="Website">Website</label><input id="Website" value="paramountstudios.com" type="text"
-                                                           class="Website">
-            </div>
-            <div class="ContactType">
-                <h6>Contact Type</h6>
-                <div class="input-container">
-                    <input name="contactType" id="customer" type="radio"> <label for="customer">Customer</label>
-                    <input name="contactType" id="vendor" type="radio"><label for="vendor">Vendor</label>
-                </div>
-            </div>
-        </div>
-        <div class="row customer-service">
-            <h6>Customer Service Represenative</h6>
-            <div class="input-container">
-                <label for="CSR">CSR</label>
-                <select style="background-image:url(img/selectface.png);" name="CSR" id="CSR">
-                    <option value="">Christopher Furera</option>
-                    <option value="">Jonas Hanlin</option>
-                </select>
+            <h1>Documents</h1>
+            <div class="buttons-block">
+                <button class="approve-signoff">
+                    <div class="approve-signoff-img">
+                        <img src="img/5.png" alt="">
+                    </div>
+                    approve & sign off
+                </button>
+                <button class="black-btn">New document</button>
             </div>
         </div>
 
-        <div class="row">
-            <div class="new-contact-links-block brdb">
-                <div id="new-contact-link-tax-payment-details" class="new-contact-link new-contact-link-active">Tax & Payment Details</div>
-                <div id="new-contact-link-Adress" class="new-contact-link">Address</div>
-                <div id="new-contact-link-ShippingAddress" class="new-contact-link">Shipping Address</div>
-                <div id="new-contact-link-ReportingTags" class="new-contact-link">Reporting Tags</div>
-                <div id="new-contact-link-Notes" class="new-contact-link">Notes</div>
+        <div class="folder-documents">
+            <div class="folder-documents-header">
+                <h6>folder & documents</h6><i class="fas fa-ellipsis-h"></i>
             </div>
-            <div class="new-contact-info">
-                <div class="tax-payment-details">
-                    <h6>Tax Preference</h6>
-                    <div class="input-container ContactType TaxPreference">
-                        <input name="TaxPreference" id="Taxable" type="radio"> <label for="Taxable">Taxable</label>
-                        <input name="TaxPreference" id="TaxExempt" type="radio"><label for="TaxExempt">Tax
-                        Exempt</label>
-                    </div>
-                    <div class="half-width-form">
-                        <div class="TaxRate">
-                            <h6>Tax Rate</h6>
-                            <div class="input-container">
-                                <label for="selectTax">Select a Tax</label>
-                                <select name="selectTax" id="selectTax">
-                                    <option value="">California State Tax (7.25%)</option>
-                                    <option value="">California State Tax (7.25%)2</option>
-                                </select>
-                            </div>
-                            <div class="input-container">
-                                <label for="paymentForm">Payment Form</label>
-                                <select name="paymentForm" id="paymentForm">
-                                    <option value="">Credit Card</option>
-                                    <option value="">Credit Card 2</option>
-                                </select>
-                            </div>
-                            <div class="input-container">
-                                <label for="paymentTerms">Payment Terms</label>
-                                <select name="paymentTerms" id="paymentTerms">
-                                    <option value="">C.O.D</option>
-                                    <option value="">C.O.D2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <h6>Social Media </h6>
-                        <div class="input-container">
-                            <label for="Linkedin">Linkedin</label><input id="Linkedin" type="text" class="Linkedin">
-                        </div>
-                        <div class="input-container">
-                            <label for="Facebook">Mobile</label><input id="Facebook" type="text" class="Facebook">
-                        </div>
+            <ul class="folder-documents-body">
+                <li><img src="img/Folder-Checkout.png" alt="">Documents Sent</li>
+                <li><img src="img/5.png" alt="">Documents Signed</li>
+                <li><img src="img/Folder-Checkout.png" alt="">Add new folder</li>
+            </ul>
+        </div>
+        <div class="documents-table">
+            <div class="table-head documents-table-head">
+                <div class="col1"><input type="checkbox">Title</div>
+                <div class="col2">Status</div>
+                <div class="col3">Tags</div>
+                <div class="col4">Last Modified</div>
+                <div class="col5">Approvers/Recipients</div>
+                <div class="col6">Created</div>
+                <div class="col7"></div>
+            </div>
+            <div class="table-row">
+                <div class="col1"><img src="img/TCDS.png" alt="">Documents is opened by a recipient every time</div>
+                <div class="col2"><i class="fas fa-circle"></i>Ready</div>
+                <div class="col3"></div>
+                <div class="col4"></div>
+                <div class="col5">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">3/6/2018 3:32 pm</div>
                     </div>
                 </div>
-                <div class="Address hide">No have design</div>
-                <div class="ShippingAddress hide">No have design</div>
-                <div class="ReportingTags hide">No have design</div>
-                <div class="Notes hide">No have design</div>
-            </div>
-        </div>
-        <div class="row buttons-block">
-            <button class="black-btn">Save</button>
-            <button class="white-btn">Cansel</button>
-        </div>
-
-
-    </div>
-    <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12 right-block">
-        <div class="links-block">
-            <a href="#"><img src="img/filter.png" alt="">Filter</a>
-            <a href="#"><img src="img/inf.png" alt="">informers</a>
-            <a href="#"><img src="img/Ellipse.png" alt="">More</a>
-        </div>
-        <div class="actions-block">
-            <h6>actions</h6>
-            <div class="action">
-                <img src="img/face.png" alt="">
-                <div class="action-text">Payment authorization for
-                    website / blog update NPN
-                    phase II
-                    <div class="action-time">3 hours ago</div>
+                <div class="col6">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                    <div class="approvers-name">Stanislav Khromykh</div>
+                    <div class="approvers-date">6 Hours Ago</div>
+                    </div>
                 </div>
-
+                <div class="col7"><i class="fas fa-ellipsis-v"></i></div>
             </div>
-            <div class="action">
-                <img src="img/711.png" alt="">
-                <div class="action-text">Payment authorization for
-                    website / blog update NPN
-                    phase II
-                    <div class="action-time">3 hours ago</div>
+            <div class="table-row">
+                <div class="col1"><img src="img/TCDS.png" alt="">Documents is opened by a recipient every time</div>
+                <div class="col2"><i class="fas fa-circle"></i>Ready</div>
+                <div class="col3"></div>
+                <div class="col4"></div>
+                <div class="col5">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">3/6/2018 3:32 pm</div>
+                    </div>
                 </div>
+                <div class="col6">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">6 Hours Ago</div>
+                    </div>
+                </div>
+                <div class="col7"><i class="fas fa-ellipsis-v"></i></div>
             </div>
-            <h6 class="brd">other actions...</h6>
+
+            <div class="table-row">
+                <div class="col1"><img src="img/TCDS.png" alt="">Documents is opened by a recipient every time</div>
+                <div class="col2"><i class="fas fa-circle"></i>Ready</div>
+                <div class="col3"></div>
+                <div class="col4"></div>
+                <div class="col5">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">3/6/2018 3:32 pm</div>
+                    </div>
+                </div>
+                <div class="col6">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">6 Hours Ago</div>
+                    </div>
+                </div>
+                <div class="col7"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+
+            <div class="table-row">
+                <div class="col1"><img src="img/TCDS.png" alt="">Documents is opened by a recipient every time</div>
+                <div class="col2"><i class="fas fa-circle"></i>Ready</div>
+                <div class="col3"></div>
+                <div class="col4"></div>
+                <div class="col5">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">3/6/2018 3:32 pm</div>
+                    </div>
+                </div>
+                <div class="col6">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">6 Hours Ago</div>
+                    </div>
+                </div>
+                <div class="col7"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+            <div class="table-row">
+                <div class="col1"><img src="img/TCDS.png" alt="">Documents is opened by a recipient every time</div>
+                <div class="col2"><i class="fas fa-circle"></i>Ready</div>
+                <div class="col3"></div>
+                <div class="col4"></div>
+                <div class="col5">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">3/6/2018 3:32 pm</div>
+                    </div>
+                </div>
+                <div class="col6">
+                    <img class="face" src="img/face.png" alt="">
+                    <div class="approvers-text">
+                        <div class="approvers-name">Stanislav Khromykh</div>
+                        <div class="approvers-date">6 Hours Ago</div>
+                    </div>
+                </div>
+                <div class="col7"><i class="fas fa-ellipsis-v"></i></div>
+            </div>
+
         </div>
     </div>
 

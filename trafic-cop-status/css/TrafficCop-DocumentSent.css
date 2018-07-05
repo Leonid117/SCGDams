@@ -1,0 +1,233 @@
+.buttons-block{
+    display: inline-block;
+    float: right;
+}
+.main-block-header {
+    padding-top: 27px;
+    background: white;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e1e4eb;
+}
+.trafic-cop-status .main-block-header h1 {
+    margin-left: 32px;
+    margin-top: 7px;
+}
+.approve-signoff{
+    height: 45px;
+    line-height: 41px;
+    border-radius: 40px;
+    width: 230px;
+    background: white;
+    margin: 0 70px 0 0;
+    color: #000;
+    border: 1px solid #000;
+    text-transform: capitalize;
+}
+.approve-signoff-img{
+    float: left;
+    background: black;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin: -4px 0 0 -22px;
+    border-radius: 50%;
+}
+.folder-documents{
+    display: inline-block;
+    width: 15%;
+    float: left;
+}
+.folder-documents-header h6{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.folder-documents-header  .fa-ellipsis-h{
+    float: right;
+    line-height: 40px;
+    margin: 10px 20px;
+}
+.main-block-sidebar-open {
+    padding-left: 275px;
+    padding-right: 0;
+}
+.main-block-header{
+    padding-left: 30px;
+}
+.folder-documents-header{
+    padding-left: 36px;
+}
+.folder-documents-body{
+    list-style: none;
+    padding: 0;
+}
+.folder-documents-body li{
+    font-size: 12px;
+    padding: 0 0 0 35px;
+    line-height: 57px;
+    font-weight: 500;
+}
+.folder-documents-body li img{
+    max-width: 20px;
+    margin: -3px 10px 0 0;
+}
+.folder-documents-body li:hover{
+    background: #e1e4eb;
+    cursor: pointer;
+}
+.documents-table{
+    width: 85%;
+    background: white;
+    display: inline-block;
+    height: 100%;
+    padding-bottom: 20%;
+    border-left: 1px solid #e1e4eb;
+}
+.documents-table-head{
+    background: white;
+    height: 58px;
+    text-transform: capitalize;
+    border-top: 0;
+    border-bottom: 1px solid #e1e4eb;
+}
+.documents-table .col1{
+    width: 26%;
+    padding-left: 0.7%;
+    font-weight: 500;
+}
+.documents-table .col2{
+    width: 12.5%;
+}
+.documents-table .col3{
+    width: 10%;
+}
+.documents-table .col4{
+    width: 13%;
+}
+.documents-table .col5{
+    width: 17%;
+}
+.documents-table .col6{
+    padding: 0;
+    width: 17%;
+}
+.documents-table .col7{
+    width: 1%;
+    text-align: right;
+    font-size: 16px;
+}
+.table-head > div{
+    line-height: 58px;
+}
+.table-head input[type="checkbox"] {
+    margin: 15px 20px 0 10px;
+}
+.row {
+    margin-right: 5px;
+}
+.table-head > div {
+    color: #b3b3b3;
+    font-weight: 500;
+}
+.table-row {
+    height: 85px;
+    line-height: 85px;
+    border-left: 0;
+    font-size: 12px;
+}
+.documents-table .col1 img{
+    margin: 0 15px 0 10px;
+}
+.table-row:hover {
+    border-left: 0;
+}
+.documents-table .col2 .fa-circle{
+    font-size: 7px;
+    margin: 0 16px 0 0;
+    vertical-align: middle;
+}
+.table-row .col2{
+    color: #633afd;
+    font-weight: 500;
+}
+.table-row .face{
+    border-radius: 50%;
+    width: 35px;
+}
+.approvers-text{
+    display: inline-block;
+    line-height: normal;
+    margin: 0 0 0 5px;
+    vertical-align: middle;
+}
+.approvers-name, .approvers-date{
+    line-height: normal;
+}
+.approvers-name{
+    font-weight: 500;
+}
+.approvers-date{
+    position: relative;
+    top: 5px;
+    color: #b3b3b3;
+}
+.fa-ellipsis-v, .fa-ellipsis-h{
+    cursor: pointer;
+}
+@media (max-width: 1730px) {
+    .folder-documents{
+        width: 19%;
+    }
+    .documents-table{
+        width: 81%;
+    }
+}
+@media (max-width: 1440px) {
+    .main-block-sidebar-open {
+        padding-left: 65px;
+    }
+}
+@media (max-width: 1220px) {
+    .folder-documents{
+        width: 23%;
+    }
+    .documents-table{
+        width: 77%;
+    }
+}
+@media (max-width: 1024px) {
+    .folder-documents{
+        width: 100%;
+    }
+    .documents-table{
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .main-block-sidebar-open {
+        padding-left: 0;
+    }
+    .table-row, .documents-table-head {
+        font-size: 8px;
+    }
+    .documents-table .col4 {
+        width: 12%;
+    }
+    .table-row .face {
+        border-radius: 50%;
+        width: 15px;
+    }
+    .buttons-block{
+        width: 100%;
+    }
+    .buttons-block button{
+        width: 100%;
+        margin:20px 0;
+    }
+    .approve-signoff-img {
+        margin: -4px 0 0 -8px;
+    }
+}
