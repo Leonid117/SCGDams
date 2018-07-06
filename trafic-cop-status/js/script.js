@@ -99,4 +99,16 @@ $(document).ready(function () {
             }
         });
     });
+    jQuery('#Storefront').click(function () {
+        jQuery('.ugp-link').removeClass('ugp-link-active');
+        jQuery(this).addClass('ugp-link-active');
+        jQuery(this).parents().find('#Administration-content').addClass('hide');
+        jQuery(this).parents().find('#Storefront-content').removeClass('hide');
+    });
+    jQuery('#Administration').click(function () {
+        jQuery('.ugp-link').removeClass('ugp-link-active');
+        jQuery(this).addClass('ugp-link-active');
+        jQuery(this).parents().find('#Storefront-content').addClass('hide');
+        jQuery(this).parents().find('#Administration-content').removeClass('hide');
+    });
 });
