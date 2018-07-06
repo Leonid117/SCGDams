@@ -11,41 +11,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user-groups-permissions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-groups-permissions.html">
+      <file leaf-file-name="TrafficCop-DocumentSent.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrafficCop-DocumentSent.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="184" column="46" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="46" />
-              <folding />
+              <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#4;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#5;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-groups-permissions.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/user-groups-permissions.css">
+      <file leaf-file-name="dashboard-click-folder.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dashboard-click-folder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="255" column="26" lean-forward="false" selection-start-line="255" selection-start-column="26" selection-end-line="255" selection-end-column="26" />
+            <state relative-caret-position="215">
+              <caret line="130" column="78" lean-forward="false" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrafficCop-DocumentSent.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/TrafficCop-DocumentSent.css">
+      <file leaf-file-name="new-contact-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new-contact-page.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="187" column="0" lean-forward="false" selection-start-line="187" selection-start-column="0" selection-end-line="191" selection-end-column="1" />
+              <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#5;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-companies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search-companies.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="trafic-cop-status.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trafic-cop-status.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -55,8 +75,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>black-</find>
-      <find>TaxRate</find>
       <find>new-contact-link</find>
       <find>profile-picture</find>
       <find>tax-payment-details</find>
@@ -73,7 +91,6 @@
       <find>row brdb</find>
       <find>.documents-table .col2</find>
       <find>fac</find>
-      <find>collapse</find>
       <find>buttons-block</find>
       <find>Salutation</find>
       <find>new-contact-links-block brdb</find>
@@ -85,6 +102,9 @@
       <find>table</find>
       <find>1440</find>
       <find>black-btn black-btn-go</find>
+      <find>operations-panel</find>
+      <find>colla</find>
+      <find>collapse</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -98,9 +118,7 @@
         <option value="$PROJECT_DIR$/dashboard-click-folder.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/new-contact-page.css" />
-        <option value="$PROJECT_DIR$/search-companies.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/trafic-cop-status.html" />
         <option value="$PROJECT_DIR$/create-profile.html" />
         <option value="$PROJECT_DIR$/css/create-profile.css" />
         <option value="$PROJECT_DIR$/css/dams-final-homepage.css" />
@@ -110,13 +128,15 @@
         <option value="$PROJECT_DIR$/traffic-cop-homepage.html" />
         <option value="$PROJECT_DIR$/upload-your-profile-picture.html" />
         <option value="$PROJECT_DIR$/css/upload-your-profile-picture.css" />
-        <option value="$PROJECT_DIR$/TrafficCop-DocumentSent.html" />
         <option value="$PROJECT_DIR$/css/TrafficCop-DocumentSent.css" />
-        <option value="$PROJECT_DIR$/new-contact-page.html" />
         <option value="$PROJECT_DIR$/dashboard-click-folder.html" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/user-groups-permissions.html" />
         <option value="$PROJECT_DIR$/css/user-groups-permissions.css" />
+        <option value="$PROJECT_DIR$/user-groups-permissions.html" />
+        <option value="$PROJECT_DIR$/TrafficCop-DocumentSent.html" />
+        <option value="$PROJECT_DIR$/new-contact-page.html" />
+        <option value="$PROJECT_DIR$/search-companies.html" />
+        <option value="$PROJECT_DIR$/trafic-cop-status.html" />
       </list>
     </option>
   </component>
@@ -232,12 +252,12 @@
       <workItem from="1530279872454" duration="19940000" />
       <workItem from="1530646058623" duration="5418000" />
       <workItem from="1530783300766" duration="14392000" />
-      <workItem from="1530874275880" duration="15428000" />
+      <workItem from="1530874275880" duration="15852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195193000" />
+    <option name="totallyTimeSpent" value="195617000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -384,20 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search-companies.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="253" column="0" lean-forward="true" selection-start-line="253" selection-start-column="0" selection-end-line="253" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trafic-cop-status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1190">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -434,52 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TrafficCop-DocumentSent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2516">
-          <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#5;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard-click-folder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="48" column="64" lean-forward="false" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/new-contact-page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="42" column="11" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new-contact-page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="255" column="31" lean-forward="false" selection-start-line="255" selection-start-column="31" selection-end-line="255" selection-end-column="31" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#5;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -494,8 +458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user-groups-permissions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="184" column="46" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="46" />
+        <state relative-caret-position="283">
+          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -504,6 +468,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="255" column="26" lean-forward="false" selection-start-line="255" selection-start-column="26" selection-end-line="255" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="111" column="52" lean-forward="false" selection-start-line="111" selection-start-column="52" selection-end-line="111" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard-click-folder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="130" column="78" lean-forward="false" selection-start-line="130" selection-start-column="70" selection-end-line="130" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrafficCop-DocumentSent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new-contact-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#5;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search-companies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="41" column="64" lean-forward="false" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trafic-cop-status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
           <folding />
         </state>
       </provider>
