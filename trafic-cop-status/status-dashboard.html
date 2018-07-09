@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dashboard Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="fonts/roboto.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body class="status-dashboard-body">
+<div class="sidebar sidebar-open ui-widget-content close-sidebar"  id="resizable">
+    <ul class="nav">
+        <a href="#" class="logo"><img class="full-logo" src="img/logo-full.png" alt=""><img class="small-logo" src="img/logo.png" alt=""></a>
+        <li><a href="#"><img src="img/1.png" alt="">Clients
+            <div class="folder-qty">30</div>
+        </a></li>
+        <li><a href="#"><img src="img/2.png" alt="">Folders
+            <div class="folder-qty">24</div>
+        </a></li>
+        <li>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+               aria-controls="collapseOne">
+                <img src="img/1.png" alt="">Files
+                <div class="folder-qty">30</div>
+            </a>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <ul>
+                    <li><img src="img/all-format.png" alt="">All formats <input type="checkbox"></li>
+                    <li><img src="img/photos.png" alt="">Photos <input type="checkbox"></li>
+                    <li><img src="img/documents.png" alt="">Documents<input type="checkbox"></li>
+                    <li><img src="img/video.png" alt="">Videos<input type="checkbox"></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#"><img src="img/3.png" alt="">Approved Files
+            <div class="folder-qty">6</div>
+        </a></li>
+        <li class="active"><a href="#"><img src="img/4.png" alt="">Job status</a></li>
+        <li><a href="#"><img src="img/5.png" alt="">Send for approval</a></li>
+
+    </ul>
+</div>
+
+<div class="container-main">
+    <div class="navibar">
+        <div class="navbar-left">
+            <div class="dropdown-select">
+                <img src="img/dashboard-icon.png" alt="">
+                <select name="" id="">
+                    <option value="">Traffic cop</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            </div>
+            <div class="plus">+</div>
+            <div class="search-button">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="adobe"><img src="img/adobe.png" alt=""> adobe</a>
+            <a href="#" class="status"><img src="img/bell-icon.png" alt=""><div class="status-point"></div> Status</a>
+            <a href="#" class="notifications"><img src="img/notifications.png" alt=""><div class="notifications-point"></div>Notifications</a>
+            <div class="navbar-right-separator"></div>
+            <a href="#" class="folder"><img src="img/Folder-Checkout.png" alt=""> folder
+                <div class="folder-qty">30</div>
+            </a>
+            <div class="profile">
+                <img src="img/profile.png" alt="" class="profile-photo">
+                <div class="profile-name">Stanislav Khromykh</div>
+                <a class="profile-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+        </div>
+        <div class="navbar-right-hamburger navbar-dark  indigo darken-2">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon4"><span></span><span></span><span></span></div></button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <div class="profile">
+                            <img src="img/profile.png" alt="" class="profile-photo">
+                            <div class="profile-name">Stanislav Khromykh</div>
+                            <a class="profile-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="adobe"><img src="img/adobe.png" alt=""> adobe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="status"><img src="img/bell-icon.png" alt=""><div class="status-point"></div> Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="notifications"><img src="img/notifications.png" alt=""><div class="notifications-point"></div>Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="folder"><img src="img/Folder-Checkout.png" alt=""> folder
+                            <div class="folder-qty">30</div>
+                        </a>                    </li>
+                </ul>
+                <!-- Links -->
+            </div>
+            <!-- Collapsible content -->
+        </div>
+        <!--/.Navbar-->
+    </div>
+    <div>
+        <div class="col-sm-9 col-lg-9 col-md-9 col-xs-12 main-block">
+            <div class="row main-block-header">
+                <h1>Document Status Dashboard</h1>
+                <div class="main-block-header-buttons">
+                    <button class="main-block-header-button transparent-button transparent-button-active">1 week</button>
+                    <button class="main-block-header-button transparent-button">1 month</button>
+                    <button class="main-block-header-button transparent-button">3 month</button>
+                    <button class="main-block-header-button transparent-button">6 month</button>
+                    <button class="main-block-header-button transparent-button">1 year</button>
+                    <button class="main-block-header-button">new document</button>
+                </div>
+            </div>
+            <div class="items-grid">
+                <div class="item">
+                    <div class="item-head">
+                        <p class="item-name">Submited</p>
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <div class="item-qty">0 <p>Docwuments</p></div>
+                    <div class="item-footer">
+                        <a href="#">View All</a>
+                        <p>0 today</p>
+                    </div>
+                </div>
+                <div class="item white-item">
+                    <div class="item-head">
+                        <p class="item-name">Submited</p>
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <div class="item-qty">0 <p>Docwuments</p></div>
+                    <div class="item-footer">
+                        <a href="#">View All</a>
+                        <p>0 today</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-head">
+                        <p class="item-name">Submited</p>
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <div class="item-qty">0 <p>Docwuments</p></div>
+                    <div class="item-footer">
+                        <a href="#">View All</a>
+                        <p>0 today</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-head">
+                        <p class="item-name">Submited</p>
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <div class="item-qty">0 <p>Docwuments</p></div>
+                    <div class="item-footer">
+                        <a href="#">View All</a>
+                        <p>0 today</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-head">
+                        <p class="item-name">Submited</p>
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <div class="item-qty">0 <p>Docwuments</p></div>
+                    <div class="item-footer">
+                        <a href="#">View All</a>
+                        <p>0 today</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-head">
+                        <p class="item-name">Submited</p>
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <div class="item-qty">0 <p>Docwuments</p></div>
+                    <div class="item-footer">
+                        <a href="#">View All</a>
+                        <p>0 today</p>
+                    </div>
+                </div>
+                <div class="add_item">
+                    <div class="add_item_plus">+</div>
+                    <p>Upload New Files</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-lg-3 col-md-3 col-xs-12 right-block">
+            <div class="timeline">timeline</div>
+            <div class="block-file approved">
+                <img src="img/file-format.png" alt="">
+                <h6>Deadpool File.pdf has been approved. Job is ready to print.</h6>
+
+                <div class="block-file-status">Approved#123</div>
+                <p>Louie Bojila approved your document.</p>
+                <div class="file-status"><span>&#8226;</span>Completed</div>
+                <div class="file-status-for-print">Ready For print</div>
+                <div class="completed">
+                    <i class="fas fa-check"></i> All recipients completed this document on Apr 04,2018
+                </div>
+            </div>
+            <div class="block-file not-approved">
+                <h6>BeachBody.png has been declined. You have been sent new edits.</h6>
+                <div class="block-file-status">Not Approved</div>
+                <p>Louie Bojila declined job status.</p>
+                <div class="file-status">&#8226; Not Approved</div>
+                <div class="file-status-for-print">Not Approved</div>
+            </div>
+            <div class="right-block-footer">
+                <div class="right-block-name">Lada Goldenberg</div>
+                <div class="right-block-separator"></div>
+                <div class="right-block-date">Sent April 4th 2018.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+        $('.animated-icon4').click(function(){
+            $(this).toggleClass('open');
+        });
+    });
+</script>
+<script src="js/script.js"></script>
