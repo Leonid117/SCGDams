@@ -1,0 +1,476 @@
+body {
+    background: #fff;
+}
+.create-invoice{
+    margin: -12px 0 0 50px;
+    vertical-align: middle;
+    box-shadow: 0 4px 12px 0px #633afd;
+    width: 120px;
+}
+.create-invoice span{
+    margin: 0 7px 0 0;
+}
+.profile-picture{
+    border: 2px solid #e1e4eb;
+    display: inline-block;
+    margin: 10px 44px 0 5px;
+    width: 140px;
+    text-align: center;
+    height: 103px;
+}
+.profile-picture:hover, .main-block select:focus, .main-block input[type="text"]:focus{
+    border: 2px solid #633afd;
+}
+.profile-picture span{
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+    left: -17px;
+    background: white;
+    padding: 0 4px;
+}
+select, input[type="text"]{
+    border: 2px solid #e1e4eb;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 18px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+}
+.Salutation{
+    width: 135px;
+    vertical-align: top;
+    margin: 8px 0 0 0;
+}
+.input-container{
+    display: inline-block;
+    width: 77%;}
+label{
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 16px;
+    left: 17px;
+    background: white;
+    padding: 0 4px;
+}
+.row {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.trafic-cop-status .main-block-header h1 {
+    margin-left: 0;
+}
+.main-block-sidebar-open {
+    padding-right: 0;
+}
+.input-form-name{
+    display: inline-block;
+    margin: 7px 0 0 0;
+    width: 100%;
+}
+.input-form-name .input-container{
+    width: 16%;
+    margin-right: 2%;
+    float: left;
+}
+.input-form-name .email-container, .input-form-name .phone-container{
+    width: 24%;
+    margin-left: 2%;
+}
+.brdb{
+    border-bottom: 1px solid #e1e4eb;
+    padding-bottom: 13px;
+}
+.company{
+    margin-top: 30px;
+}
+.website-container, .company-container{
+    width: 30%;
+    margin-right: 4%;
+}
+.company h1{
+    font-size: 25px;
+    margin: 0;
+}
+.main-block h6{
+    font-size: 18px;
+}
+.main-block select, .main-block input[type="text"]{
+    margin-bottom: 15px;
+}
+.phoneAndWebsite{
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+.Salutation{
+    width: 135px;
+}
+.upl-img {
+    text-align: center;
+    margin: 0 0 0 20px;
+    vertical-align: text-bottom;
+}
+.phoneAndWebsite .input-container, .half-width-form .input-container{
+    width: 32%;
+    margin-right: 2%;
+}
+.Add-fields{
+    color: black;
+    line-height: 18px;
+    font-size: 18px;
+    margin: -20px 0 0 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Add-fields span{
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    top: 4px;
+    margin: 0 10px 0 0;
+}
+.Add-fields:hover{
+    text-decoration: none;
+    color: #000;
+}
+.ContactType  input[type="radio"]:after, .job-type input[type="radio"]:after, .most-important input[type="radio"]:after{
+    position: relative;
+    top: -17px;
+    left: 7px;
+
+}
+.ContactType  input[type="radio"]:before, .job-type input[type="radio"]:before, .most-important input[type="radio"]:before{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: -5px;
+    top: -5px;
+    cursor: pointer;
+
+}
+
+
+.ContactType .input-container, .job-type .input-container{
+    margin: 15px 0 0 5px;
+}
+.ContactType label, .job-type label, .most-important label{
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    margin: 0 40px 0 0;
+    top: -1px;
+    cursor: pointer;
+
+}
+.customer-service{
+    margin-top: 40px;
+}
+.main-block .companyName, #salesRepresentative, #CSR{
+    background-repeat: no-repeat;
+    background-position: 26px 50%;
+    padding-left: 100px;
+}
+.new-contact-link{
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    color: #c5c5d0;
+    margin: 0px 24px 0 16px;
+    height: 40px;
+}
+.new-contact-link:hover, .new-contact-link-active{
+    border-bottom: 2px solid #633afd;
+}
+.new-contact-link-active{
+    color: #000;
+}
+.new-contact-links-block{
+    margin-top: 30px;
+    margin-bottom: 35px;
+    padding: 0;
+}
+.TaxPreference{
+    margin: 7px 0 35px 0;
+}
+.half-width-form .TaxRate .input-container{
+    display: block;
+}
+.TaxRate{
+    margin-bottom: 30px;
+}
+.buttons-block{
+    margin-top: 7px;
+    margin-bottom: 20%;
+}
+.buttons-block button{
+    height: 60px;
+    line-height: 55px;
+    width: 115px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+@media (max-width: 1730px) {
+    .input-form-name{
+        float: none;
+        width: 80%;
+    }
+    .input-form-name .input-container{
+        margin-left: 0;
+        margin-right: 4%;
+    }
+}
+@media (max-width: 1440px) {
+    .main-block {
+        padding-left: 80px;
+    }
+    .main-block-header {
+        padding-left: 0;
+    }
+}
+@media (max-width: 1024px) {
+    .new-contact-link{
+        font-size: 12px;
+        height: 30px;
+    }
+    .main-block h6 {
+        font-size: 14px;
+    }
+    select, input[type="text"], .ContactType label, .job-type label{
+        font-size: 12px;
+    }
+    .main-block input[type=radio]{
+        width: 25px;
+    }
+    .ContactType label, .job-type label{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .new-contact-link{
+        font-size: 12px;
+        height: 20px;
+        display: block;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+    .main-block .input-container, .input-form-name{
+        width: 100%;
+    }
+    .create-invoice {
+        margin: 20px 0 30px 0;
+    }
+
+}
+.btn-plus{
+    width: 120px;
+    height: 35px;
+    float: right;
+    text-align: center;
+    margin: 0;
+    border-radius: 0;
+    top: -10px;
+    position: relative;
+    font-size: 19px;
+}
+.job-type .input-container{
+    display: inline-block;
+    width: auto;
+}
+textarea{
+    border: 2px solid #e1e4eb;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px 18px 0 18px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 80px;
+}
+.left-col-select{
+    width: 41%;
+    float: left;
+    display: inline-block;
+}
+.right-col-select{
+    width: 57%;
+    margin-left: 2%;
+    display: inline-block;
+}
+.select-container  .input-container{
+    width: 100%;
+}
+.select-container {
+    max-width: 73%;
+}
+.block-squares {
+    display: inline-block;
+    float: left;
+}
+.block-squares label{
+    top: 0;
+    display: block;
+    left: 0;
+    text-align: left;
+}
+.square-plus{
+    background: #edeff3;
+    width: 185px;
+    height: 195px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px 20px 0 0;
+    display: inline-block;
+}
+.square-plus .btn-plus{
+    float: none;
+    top: 0;
+    margin-top: 70px;
+    position: relative;
+}
+.color-pallete .color-col >div{
+    width: 1.35vw;
+    border: 1px solid white;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.04vw;
+    height: 20px;
+}
+.color-pallete .color-col{
+    display: inline-block;
+    float: left;
+}
+.color-pallete{
+    margin: 18px 0 0 11px;
+    display: inline-block;
+}
+.color-circle{
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    top: 30%;
+}
+.color-pallete .label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    display: block;
+    position: relative;
+    text-align: left;
+}
+.File{
+    margin: 40px 0 30px 0;
+    width: 72%;
+    height: 205px;
+}
+.File label{
+    top: 0;
+    left: 0;
+    display: block;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.File .btn-plus{
+    width: 67%;
+    height: 55px;
+    margin-top: 60px;
+    font-size: 40px;
+}
+.NotesDetails{
+    height: 160px;
+}
+.select-files{
+    margin: 40px 0 50px 0;
+    width: 110px;
+    text-transform: capitalize;
+    line-height: 38px;
+}
+.select-files img{
+    margin-right: 10px;
+    margin-top: -4px;
+
+}
+
+.most-important{
+    margin: 40px 0 70px 0;
+}
+.most-important .input-container{
+    width: auto;
+}
+.select-container  .capcha{
+    margin: 15px 20px 45px 0;
+    display: inline-block;
+    width: 41%;
+    min-width: 250px;
+    float: left;
+}
+.capcha-img{
+    display: inline-block;
+    margin: 40px 0 0 0;
+}
+@media (max-width: 1024px) {
+    .color-pallete .color-col >div {
+        width: 3.3vw;
+    }
+}
+@media (max-width: 767px) {
+.main-block {
+    padding-left: 0;
+}
+    .job-type .input-container, .input-container, .left-col-select, .right-col-select{
+        width: 100%;
+    }
+    .right-col-select{
+        margin: 0;
+    }
+    .select-container {
+        max-width: 100%;
+    }
+    .block-squares, .square-plus{
+        display: block;
+        float: none;
+        margin:10px auto;
+    }
+    .capcha-img {
+        margin: 10px 0 30px 0;
+    }
+    .select-container .capcha {
+        margin: 0;
+        width: 100%;
+    }
+    .color-pallete{
+        padding-left: 20px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+        height: 210px;
+     }
+    .color-pallete .color-col {
+        width: 5%;
+    }
+    .color-pallete .color-col >div {
+        width: auto;
+    }
+    .btn-plus {
+         float: none;
+        margin: 30px 0 40px 0;
+        top:0;
+    }
+    .most-important .input-container {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+

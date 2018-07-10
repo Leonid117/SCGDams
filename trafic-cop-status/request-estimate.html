@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Dashboard Template for Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <link href="fonts/roboto.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/request-estimate.css" rel="stylesheet">
+</head>
+
+<body class="trafic-cop-status">
+<div class="sidebar sidebar-open ui-widget-content" id="resizable">
+    <ul class="nav">
+        <a href="#" class="logo"><img class="full-logo" src="img/logo-full.png" alt=""><img class="small-logo"
+                                                                                            src="img/logo.png"
+                                                                                            alt=""></a>
+        <li><a href="#"><img src="img/1.png" alt="">Clients
+            <div class="folder-qty">30</div>
+        </a></li>
+        <li><a href="#"><img src="img/2.png" alt="">Folders
+            <div class="folder-qty">24</div>
+        </a></li>
+        <li>
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
+               aria-controls="collapseOne">
+                <img src="img/1.png" alt="">Files
+                <div class="folder-qty">30</div>
+            </a>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <ul>
+                    <li><img src="img/all-format.png" alt="">All formats <input type="checkbox"></li>
+                    <li><img src="img/photos.png" alt="">Photos <input type="checkbox"></li>
+                    <li><img src="img/documents.png" alt="">Documents<input type="checkbox"></li>
+                    <li><img src="img/video.png" alt="">Videos<input type="checkbox"></li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="#"><img src="img/3.png" alt="">Approved Files
+            <div class="folder-qty">6</div>
+        </a></li>
+        <li class="active"><a href="#"><img src="img/4.png" alt="">Job status</a></li>
+        <li><a href="#"><img src="img/5.png" alt="">Send for approval</a></li>
+
+    </ul>
+</div>
+
+<div class="container-main">
+    <div class="navibar navibar-sidebar-open">
+        <div class="navbar-left">
+            <div class="dropdown-select">
+                <img src="img/dashboard-icon.png" alt="">
+                <select name="" id="">
+                    <option value="">Traffic cop</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                </select>
+            </div>
+            <div class="plus">+</div>
+            <div class="search-button">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="adobe"><img src="img/adobe.png" alt=""> adobe</a>
+            <a href="#" class="status"><img src="img/bell-icon.png" alt="">
+                <div class="status-point"></div>
+                Status</a>
+            <a href="#" class="notifications"><img src="img/notifications.png" alt="">
+                <div class="notifications-point"></div>
+                Notifications</a>
+            <div class="navbar-right-separator"></div>
+            <div class="folder">
+                <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"
+                   class="dropdown-toggle"><img src="img/Folder-Checkout.png" alt=""> folder
+                    <div class="folder-qty">30</div>
+                </a>
+                <div class="dropdown-menu dropdown-menu-folder ">
+                    <a class="dropdown-item" href="#">
+                        <img class="item-img" src="img/folder.png" alt="">Printing
+                        <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
+                            <div class="remove-item">&times;</div>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <img class="item-img" src="img/folder.png" alt="">Printing
+                        <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
+                            <div class="remove-item">&times;</div>
+                        </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                        <img class="item-img" src="img/folder.png" alt="">Printing
+                        <div class="folder-dropdown-item-r-buttons"><i class="fas fa-paperclip"></i>
+                            <div class="remove-item">&times;</div>
+                        </div>
+                    </a>
+                    <div class="dropdown-menu-folder-footer">
+                        <button class="dropdown-menu-folder-checkout">checkout</button>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="profile">
+                <img src="img/profile.png" alt="" class="profile-photo">
+                <div class="profile-name">Stanislav Khromykh</div>
+                <a class="profile-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+            </div>
+        </div>
+        <div class="navbar-right-hamburger navbar-dark  indigo darken-2">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22"
+                    aria-controls="navbarSupportedContent22"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon4"><span></span><span></span><span></span></div>
+            </button>
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <div class="profile">
+                            <img src="img/profile.png" alt="" class="profile-photo">
+                            <div class="profile-name">Stanislav Khromykh</div>
+                            <a class="profile-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#" class="adobe"><img src="img/adobe.png" alt=""> adobe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="status"><img src="img/bell-icon.png" alt="">
+                            <div class="status-point"></div>
+                            Status</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="notifications"><img src="img/notifications.png" alt="">
+                            <div class="notifications-point"></div>
+                            Notifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="folder"><img src="img/Folder-Checkout.png" alt=""> folder
+                            <div class="folder-qty">30</div>
+                        </a></li>
+                </ul>
+                <!-- Links -->
+            </div>
+            <!-- Collapsible content -->
+        </div>
+        <!--/.Navbar-->
+    </div>
+
+    <div class="col-sm-10 col-lg-10 col-md-10 col-xs-12 main-block main-block-sidebar-open">
+        <div class="row main-block-header">
+            <h1>Request an Estimate</h1>
+            <button class="add btn-plus">+</button>
+        </div>
+        <div class="row brdb">
+            <div class="input-form-name">
+                <div class="input-container">
+                    <label for="firstName">First Name</label><input value="Chris" id="firstName" type="text"
+                                                                    class="firstName">
+                </div>
+                <div class="input-container">
+                    <label for="lastName">Last Name</label><input value="Toomey" id="lastName" type="text"
+                                                                  class="lastName">
+                </div>
+                <div class="input-container email-container">
+                    <label for="email">email</label><input id="email" type="text"
+                                                           class="email">
+                </div>
+                <div class="input-container phone-container">
+                    <label for="phone">phone Number</label><input value="310.559.3600" id="phone" type="text"
+                                                                  class="phone">
+                </div>
+            </div>
+        </div>
+        <div class=" row company brdb">
+            <h1>Company Name</h1>
+            <div class="input-container company-container" action="">
+                <label for="companyName">Company</label>
+                <input style="background-image:url(img/ParamountStudioLogo.png);" value="Paramount Studios"
+                       id="companyName" type="text" class="companyName">
+            </div>
+            <div class="input-container website-container">
+                <label for="Website">Website</label><input id="Website" value="paramountstudios.com" type="text"
+                                                           class="Website">
+            </div>
+        </div>
+        <div class="row phoneAndWebsite job-type">
+            <h6>Job Type </h6>
+            <div class="input-container">
+                <input name="job-type" id="Digital" type="radio"> <label for="Digital">Digital</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="LargeFormat" type="radio"><label for="LargeFormat">Large Format</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="LithoPress" type="radio"> <label for="LithoPress">Litho Press</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="Fulfillment" type="radio"> <label for="Fulfillment">Fulfillment</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="Prepress" type="radio"> <label for="Prepress">Prepress</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="Packaging" type="radio"> <label for="Packaging">Packaging</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="PromotionalProducts" type="radio"> <label for="PromotionalProducts">Promotional
+                Products</label>
+            </div>
+            <div class="input-container">
+
+                <input name="job-type" id="WebApplications" type="radio"> <label for="WebApplications">Web &
+                Applications</label>
+            </div>
+        </div>
+        <div class="select-container">
+            <div class="row">
+                <div class="input-container">
+                    <label for="Description">Description</label><textarea id="Description"
+                                                                          class="Description"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-container">
+                    <label for="Quantity">Quantity</label>
+                    <select name="Quantity" id="Quantity">
+                        <option value="">500</option>
+                        <option value="">1000</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-container">
+                    <label for="Size">Size</label>
+                    <select name="Size" id="Size">
+                        <option value="">A4 (8.5' x 11')</option>
+                        <option value="">A5 (8.5' x 11')</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="left-col-select">
+                    <div class="input-container">
+                        <label for="PaperStock">Paper/Stock</label>
+                        <select name="PaperStock" id="PaperStock">
+                            <option value="">16 pt.</option>
+                            <option value="">32 pt.</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label for="SidesPages">Sides/Pages</label>
+                        <select name="SidesPages" id="SidesPages">
+                            <option value="">California State Tax (7.25%)</option>
+                            <option value="">California State Tax (7.25%)2</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label for="Coating">Coating</label>
+                        <select name="Coating" id="Coating">
+                            <option value="">None</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="right-col-select">
+                    <div class="input-container">
+                        <label for="Color">Color</label>
+                        <select name="Color" id="Color">
+                            <option value="">4 / 4</option>
+                            <option value="">3 / 4</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label for="FoldingTrim">Folding / Trim</label>
+                        <select name="FoldingTrim" id="FoldingTrim">
+                            <option value="">None</option>
+                        </select>
+                    </div>
+                    <div class="input-container">
+                        <label for="Lamination">Lamination</label>
+                        <select name="Lamination" id="Lamination">
+                            <option value="">None</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row block-squares">
+                <div id="Font" class="square-plus">
+                    <label for="Font">Font</label>
+                    <button class="add btn-plus">+</button>
+                </div>
+                <div id="Images" class="square-plus">
+                    <label for="Images">Images</label>
+                    <button class="add btn-plus">+</button>
+                </div>
+            </div>
+            <div class="color-pallete">
+                <div class="label">CYMK Please select your color palette</div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #f7bcd0"></div>
+                    <div style="background: #f291b1"></div>
+                    <div style="background: #ee6492"></div>
+                    <div style="background: #ea437b"></div>
+                    <div style="background: #e72564"></div>
+                    <div style="background: #d52261"></div>
+                    <div style="background: #c01e5c"></div>
+                    <div style="background: #c01e5c"></div>
+                    <div style="background: #86134f"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #e0bfe6"></div>
+                    <div style="background: #cd95d7"></div>
+                    <div style="background: #b96bc6"></div>
+                    <div style="background: #aa4cba"></div>
+                    <div style="background: #aa4cba"></div>
+                    <div style="background: #9a30ae"></div>
+                    <div style="background: #7a28a0"></div>
+                    <div style="background: #692498"></div>
+                    <div style="background: #491c89">
+                        <div class="color-circle"></div>
+                    </div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b">
+                        <div class="color-circle"></div>
+                    </div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d">
+                        <div class="color-circle"></div>
+                    </div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+                <div class="color-col">
+                    <div style="background: #fecdd3"></div>
+                    <div style="background: #ed9a9b"></div>
+                    <div style="background: #e37375"></div>
+                    <div style="background: #ed5454"></div>
+                    <div style="background: #f2453d"></div>
+                    <div style="background: #e43b3b"></div>
+                    <div style="background: #d13035"></div>
+                    <div style="background: #c42b2e"></div>
+                    <div style="background: #b52023"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="File" class="square-plus File">
+                    <label for="File">Upload Your Print Ready Files (PDFs or Native Files)</label>
+                    <button class="add btn-plus">+</button>
+                </div>
+                <div class="input-container">
+                    <label for="NotesDetails">Notes & Details</label><textarea id="NotesDetails"
+                                                                               class="NotesDetails"></textarea>
+                </div>
+                <button class="add create-invoice select-files"><img src="img/select-file.png" alt="">select files
+                </button>
+                <h6>What's Most Important On This Job? Upload Your Print Ready Files</h6>
+                <div class="most-important">
+                    <div class="input-container ">
+                        <input name="most-important" id="Price" type="radio"> <label for="Price">Price</label>
+                    </div>
+                    <div class="input-container">
+                        <input name="most-important" id="Quality" type="radio"><label for="Quality">Quality</label>
+                    </div>
+                    <div class="input-container">
+
+                    <input name="most-important" id="ServiceTurnaroundTime" type="radio"> <label
+                        for="ServiceTurnaroundTime">Service & Turnaround Time</label>
+                    </div>
+                </div>
+                <h6>Enter Security Code</h6>
+                <div class="input-container capcha">
+                    <label for="Code">Code</label><input id="Code" type="text" class="Code">
+                </div>
+                <div class="capcha-img">
+                    <img src="img/capcha.png" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="row buttons-block">
+                <button class="black-btn">Submit</button>
+                <button class="white-btn">Reseet</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12 right-block">
+        <div class="links-block">
+            <a href="#"><img src="img/filter.png" alt="">Filter</a>
+            <a href="#"><img src="img/inf.png" alt="">informers</a>
+            <a href="#"><img src="img/Ellipse.png" alt="">More</a>
+        </div>
+        <div class="actions-block">
+            <h6>actions</h6>
+            <div class="action">
+                <img src="img/face.png" alt="">
+                <div class="action-text">Payment authorization for
+                    website / blog update NPN
+                    phase II
+                    <div class="action-time">3 hours ago</div>
+                </div>
+
+            </div>
+            <div class="action">
+                <img src="img/711.png" alt="">
+                <div class="action-text">Payment authorization for
+                    website / blog update NPN
+                    phase II
+                    <div class="action-time">3 hours ago</div>
+                </div>
+            </div>
+            <h6 class="brd">other actions...</h6>
+        </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
