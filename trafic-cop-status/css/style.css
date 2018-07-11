@@ -1474,3 +1474,16 @@ input[type="checkbox"].filled:not(:disabled):after {
 .sidebar input:checked:before, .fold-item input:checked:before{
     border-color: #000;
 }
+select::-ms-expand {
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;       /* remove default arrow */
+    background-repeat: no-repeat;
+    background-image: url(../img/select-shevron.png);
+    background-position: 95%;
+    line-height: normal;
+
+}

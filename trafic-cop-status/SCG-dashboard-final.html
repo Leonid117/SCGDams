@@ -12,14 +12,16 @@
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="css/jquery-ui.css">
+
     <link href="css/dashboard.css" rel="stylesheet">
     <link href="fonts/roboto.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/new-contact-page.css" rel="stylesheet">
+    <link href="css/CSG-dashboard-final.css" rel="stylesheet">
 </head>
 
 <body class="trafic-cop-status">
@@ -28,12 +30,16 @@
         <a href="#" class="logo"><img class="full-logo" src="img/logo-full.png" alt=""><img class="small-logo"
                                                                                             src="img/logo.png"
                                                                                             alt=""></a>
-        <li><a href="#"><img src="img/1.png" alt="">Clients
-            <div class="folder-qty">30</div>
-        </a></li>
+        <li>
+            <a href="#">
+                <img src="img/1.png" alt="">Clients
+                <div class="folder-qty">30</div>
+            </a>
+        </li>
         <li><a href="#"><img src="img/2.png" alt="">Folders
             <div class="folder-qty">24</div>
         </a></li>
+
         <li>
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true"
                aria-controls="collapseOne">
@@ -163,179 +169,77 @@
         <!--/.Navbar-->
     </div>
 
-    <div class="col-sm-10 col-lg-10 col-md-10 col-xs-12 main-block main-block-sidebar-open">
+    <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12 main-block main-block-sidebar-open">
         <div class="row main-block-header">
-            <h1>New Contact</h1>
-            <button class="add create-invoice"><span>+</span>Create Invoice</button>
-        </div>
-        <div class="row brdb">
-            <div class="profile-picture">
-                <span>Profile Picture</span>
-                <img src="img/profile-picture.png" alt="">
-            </div>
-            <div class="input-container Salutation" name="Salutation">
-                <label for="Salutation">Salutation</label>
-                <select name="Salutation" id="Salutation">
-                    <option value="">Mr.</option>
-                    <option value="">Ms.</option>
-                </select>
-            </div>
-            <div class="input-form-name">
-                <div class="input-container">
-                    <label for="firstName">First Name</label><input value="Chris" id="firstName" type="text"
-                                                                    class="firstName">
-                </div>
-                <div class="input-container">
-                    <label for="lastName">Last Name</label><input value="Toomey" id="lastName" type="text"
-                                                                  class="lastName">
+            <div class="looking_for">
+                Welcome <span class="name">Chris Toomey</span>!
+                <div class="buttons">
+                    <button class="transparent-button">Create New Client</button>
+                    <button class="black-btn">Send Estimate</button>
                 </div>
             </div>
-        </div>
-        <div class=" row company">
-            <h6>Company</h6>
-            <div class="input-container" action="">
-                <label for="companyName">Company Name</label>
-                <input style="background-image:url(img/ParamountStudioLogo.png);" value="Paramount Studios"
-                       id="companyName" type="text" class="companyName">
+            <h1>Dashboard</h1>
+            <div class="main-block-header-buttons">
+                <button class="main-block-header-button transparent-button transparent-button-active">1 month</button>
+                <button class="main-block-header-button transparent-button">3 month</button>
+                <button class="main-block-header-button transparent-button">6 month</button>
+                <button class="main-block-header-button transparent-button">1 year</button>
+                <button class="main-block-header-button transparent-button view-mod"><i class="fas fa-th-large"></i><i class="fas fa-chevron-down"></i>
+                </button>
             </div>
-            <button class="add create-invoice upl-img">Upload Image</button>
-            <div class="input-container">
-                <label for="salesRepresentative">Sales Representative</label>
-                <select name="salesRepresentative"
-                        id="salesRepresentative">
-                    <option value="">Jonas Hanlin</option>
-                    <option value="">Jonas Hanlin</option>
-                </select>
-            </div>
-            <div class="input-container">
-                <label for="contactEmail">Contact E-mail</label><input id="contactEmail" type="text"
-                                                                       class="contactEmail">
-            </div>
-        </div>
-        <div class="row phoneAndWebsite brdb">
-            <h6>Phone and website</h6>
-            <div class="input-container">
-                <label for="workPhone">Work Phone</label><input id="workPhone" type="text" class="workPhone">
-            </div>
-            <div class="input-container">
-                <label for="Mobile">Mobile</label><input id="Mobile" type="text" class="Mobile">
-            </div>
-            <a class="Add-fields" href="#"><span>+</span>Add fields</a>
-            <div class="input-container">
-                <label for="Website">Website</label><input id="Website" value="paramountstudios.com" type="text"
-                                                           class="Website">
-            </div>
-            <div class="ContactType">
-                <h6>Contact Type</h6>
-                <div class="input-container">
-                    <input name="contactType" id="customer" type="radio"> <label for="customer">Customer</label>
-                    <input name="contactType" id="vendor" type="radio"><label for="vendor">Vendor</label>
+            <div class="fold-grid">
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item fold-ftp">
+                    <a href="#" class="link"> <img src="img/ftp.png" alt=""></a>
+                    <div class="fold-item-name">FTP Folder</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item">
+                    <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
+                    <div class="fold-item-name">Advantage</div>
+                </div>
+                <div class="fold-item fold-create">
+                    <a href="#"><div class="fold-create-plus">+</div>
+                    <div class="fold-item-name">Create new folder</div>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="row customer-service">
-            <h6>Customer Service Represenative</h6>
-            <div class="input-container">
-                <label for="CSR">CSR</label>
-                <select name="CSR" id="CSR">
-                    <option value="">Christopher Furera</option>
-                    <option value="">Jonas Hanlin</option>
-                </select>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="new-contact-links-block brdb">
-                <div id="new-contact-link-tax-payment-details" class="new-contact-link new-contact-link-active">Tax & Payment Details</div>
-                <div id="new-contact-link-Adress" class="new-contact-link">Address</div>
-                <div id="new-contact-link-ShippingAddress" class="new-contact-link">Shipping Address</div>
-                <div id="new-contact-link-ReportingTags" class="new-contact-link">Reporting Tags</div>
-                <div id="new-contact-link-Notes" class="new-contact-link">Notes</div>
-            </div>
-            <div class="new-contact-info">
-                <div class="tax-payment-details">
-                    <h6>Tax Preference</h6>
-                    <div class="input-container ContactType TaxPreference">
-                        <input name="TaxPreference" id="Taxable" type="radio"> <label for="Taxable">Taxable</label>
-                        <input name="TaxPreference" id="TaxExempt" type="radio"><label for="TaxExempt">Tax
-                        Exempt</label>
-                    </div>
-                    <div class="half-width-form">
-                        <div class="TaxRate">
-                            <h6>Tax Rate</h6>
-                            <div class="input-container">
-                                <label for="selectTax">Select a Tax</label>
-                                <select name="selectTax" id="selectTax">
-                                    <option value="">California State Tax (7.25%)</option>
-                                    <option value="">California State Tax (7.25%)2</option>
-                                </select>
-                            </div>
-                            <div class="input-container">
-                                <label for="paymentForm">Payment Form</label>
-                                <select name="paymentForm" id="paymentForm">
-                                    <option value="">Credit Card</option>
-                                    <option value="">Credit Card 2</option>
-                                </select>
-                            </div>
-                            <div class="input-container">
-                                <label for="paymentTerms">Payment Terms</label>
-                                <select name="paymentTerms" id="paymentTerms">
-                                    <option value="">C.O.D</option>
-                                    <option value="">C.O.D2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <h6>Social Media </h6>
-                        <div class="input-container">
-                            <label for="Linkedin">Linkedin</label><input id="Linkedin" type="text" class="Linkedin">
-                        </div>
-                        <div class="input-container">
-                            <label for="Facebook">Mobile</label><input id="Facebook" type="text" class="Facebook">
-                        </div>
-                    </div>
-                </div>
-                <div class="Address hide">No have design</div>
-                <div class="ShippingAddress hide">No have design</div>
-                <div class="ReportingTags hide">No have design</div>
-                <div class="Notes hide">No have design</div>
-            </div>
-        </div>
-        <div class="row buttons-block">
-            <button class="black-btn">Save</button>
-            <button class="white-btn">Cansel</button>
-        </div>
-
-
-    </div>
-    <div class="col-sm-12 col-lg-12 col-md-12 col-xs-12 right-block">
-        <div class="links-block">
-            <a href="#"><img src="img/filter.png" alt="">Filter</a>
-            <a href="#"><img src="img/inf.png" alt="">informers</a>
-            <a href="#"><img src="img/Ellipse.png" alt="">More</a>
-        </div>
-        <div class="actions-block">
-            <h6>actions</h6>
-            <div class="action">
-                <img src="img/face.png" alt="">
-                <div class="action-text">Payment authorization for
-                    website / blog update NPN
-                    phase II
-                    <div class="action-time">3 hours ago</div>
-                </div>
-
-            </div>
-            <div class="action">
-                <img src="img/711.png" alt="">
-                <div class="action-text">Payment authorization for
-                    website / blog update NPN
-                    phase II
-                    <div class="action-time">3 hours ago</div>
-                </div>
-            </div>
-            <h6 class="brd">other actions...</h6>
         </div>
     </div>
-
+    <div class="drag-and-drop">
+        <span class="drag-and-drop-text">Drag and Drop files</span>
+    </div>
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -345,8 +249,14 @@
 
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropzone.js"></script>
     <script src="js/ie10-viewport-bug-workaround.js"></script>
     <script src="js/script.js"></script>
 
 </body>
 </html>
+
+
+<script>
+    var myDropzone = new Dropzone(".drag-and-drop", { url: "/file/post"});
+</script>

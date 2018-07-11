@@ -1,0 +1,240 @@
+.trafic-cop-status .main-block-header h1 span{
+    color: #ccc;
+}
+.main-block-header{
+    padding-left: 35px;
+    padding-top: 13px;
+}
+.looking_for{
+    display: inline-block;
+    width: 100%;
+    background: #f7f9fc;
+    border: 1px solid #e1e4eb;
+    height: 72px;
+    line-height: 70px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+body{
+    background: #fff;
+}
+.buttons{
+    float: right;
+}
+.buttons button{
+    height: 45px;
+    line-height: 41px;
+    border-radius: 40px;
+    margin: 0 0 0 30px;
+}
+.buttons .transparent-button{
+    color: black;
+    width: 160px;
+    background: transparent;
+    border: 1px solid #adadbd;
+}
+.buttons .blue-button{
+    width: 140px;
+    background: #5081fb;
+    color: #fff;
+    border: 1px solid #5081fb;
+}
+.trafic-cop-status .main-block-header h1 {
+    margin: 30px 0 0 0;
+}
+.small-chevron{
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 17px;
+    margin: 0 0 0 0;
+    position: relative;
+    top: -3px;
+    left: 20px;
+}
+.fold-grid{
+    display: inline-block;
+    width: 100%;
+    margin-top: 70px;
+}
+.fold-item{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin: 0 0 83px 9%;
+    position: relative;
+    max-width: 178px;
+}
+.fold-ftp .link img{
+    box-shadow: none;
+}
+.fold-item-head .fa-ellipsis-h{
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    border: 1px solid;
+    margin: 8px 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fold-item-head .link{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.link img{
+    box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+.fold-item-name{
+    text-align: center;
+    margin: 35px 0 0 0;
+    font-size: 15px;
+}
+
+.fold-item-name{
+    text-align: center;
+    margin: 33px 0 0 0;
+    font-size: 16px;
+}
+.link{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.favorite{
+    display: none;
+}
+
+.main-block-sidebar-open{
+    padding-right: 35px;
+    min-height: calc(100vh - 160px);
+}
+.view-mod{
+    font-size: 12px;
+    height: 21px;
+}
+.main-block-header-buttons{
+    margin: 30px 0 0 0;
+}
+.view-mod .fa-chevron-down{
+    font-size: 9px;
+    margin: 0 0 0 8px;
+}
+.fa-th-large{
+    color: #000;
+}
+.fold-create{
+    height: 155px;
+    border: 1px solid #dfdfe4;
+    text-align: center;
+}
+.fold-create a{
+    color: #dfdfe4;
+}
+.fold-create a:hover, .fold-create a:focus{
+    text-decoration: none;
+}
+.fold-create-plus{
+    font-size: 36px;
+    border: 1px solid;
+    width: 70px;
+    margin: 30px auto 0 auto;
+    line-height: 70px;
+    border-radius: 50%;
+}
+.drag-and-drop{
+    cursor: pointer;
+    width: 100%;
+    min-height: 60px;
+    display: inline-block;
+    text-align: center;
+    color: #dfdfe4;
+    border: 1px solid #dfdfe4;
+    font-size: 18px;
+    line-height: 60px;
+    padding-left: 305px;
+}
+.fold-create .fold-item-name{
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+.dz-error-message, .dz-success-mark, .dz-error-mark{
+    display: none;
+}
+.dz-preview{
+    width: 9%;
+    display: inline-block;
+    float: left;
+    margin: 60px 3% 0 3%;
+    line-height: 16px;
+    color: black;
+    font-size: 14px;
+}
+.drag-and-drop .drag-and-drop-text{
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.dz-image img{
+    width: 100%;
+}
+.dz-size, .dz-filename{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10px;
+}
+@media (max-width: 1440px){
+    .main-block, .drag-and-drop {
+        padding-left: 80px;
+    }
+}
+@media (max-width: 767px){
+    .main-block, .drag-and-drop {
+        padding-left: 0;
+    }
+    .looking_for {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .buttons button {
+        width: 100px !important;
+    }
+    .link img{
+        width: 100%;
+    }
+    .buttons button {
+        font-size: 10px;
+        height: 35px;
+        line-height: 31px;
+        border-radius: 40px;
+        margin: 0;
+    }
+}
+@media (max-width: 425px) {
+    .fold-item{
+        width: 40%;
+    }
+    .buttons {
+        width: 100%;
+        float: none;
+    }
+    .looking_for{
+        height: auto;
+    }
+}
+
+
+
+
+
+
