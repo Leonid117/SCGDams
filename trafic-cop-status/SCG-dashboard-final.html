@@ -184,7 +184,8 @@
                 <button class="main-block-header-button transparent-button">3 month</button>
                 <button class="main-block-header-button transparent-button">6 month</button>
                 <button class="main-block-header-button transparent-button">1 year</button>
-                <button class="main-block-header-button transparent-button view-mod"><i class="fas fa-th-large"></i><i class="fas fa-chevron-down"></i>
+                <button class="main-block-header-button transparent-button view-mod"><i class="fas fa-th-large"></i><i
+                        class="fas fa-chevron-down"></i>
                 </button>
             </div>
             <div class="fold-grid">
@@ -228,35 +229,90 @@
                     <a href="#" class="link"> <img src="img/folder.png" alt=""></a>
                     <div class="fold-item-name">Advantage</div>
                 </div>
-                <div class="fold-item fold-create">
-                    <a href="#"><div class="fold-create-plus">+</div>
+                <div class="fold-item fold-create" data-toggle="modal" data-target="#modal-fold-create">
+                    <div class="fold-create-plus">+</div>
                     <div class="fold-item-name">Create new folder</div>
-                    </a>
+
                 </div>
             </div>
         </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade modal-fold-create" id="modal-fold-create" tabindex="-1" role="dialog"
+             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Create new folder</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form name="createfolder" action="">
+                            <div class="input-container folder-name">
+                                <label for="folder-name">Folder Name</label><input id="folder-name" type="text"
+                                                                                   value="new folder">
+                            </div>
+                            <h6>Folder Type</h6>
+                            <div class="input-container FolderType">
+                                <input name="FolderType" id="ftp" type="radio"> <label for="ftp">FTP-folder</label>
+                                <input name="FolderType" checked="checked" id="folder" type="radio"><label for="folder">Folder</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" id="create-folder-button" data-dismiss="modal" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
     <div class="drag-and-drop">
         <span class="drag-and-drop-text">Drag and Drop files</span>
     </div>
 </div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery-ui.js"></script>
 
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/dropzone.js"></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-    <script src="js/script.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/dropzone.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
 
 
 <script>
-    var myDropzone = new Dropzone(".drag-and-drop", { url: "/file/post"});
+    var myDropzone = new Dropzone(".drag-and-drop", {url: "/file/post"});
+
+    jQuery("#create-folder-button").click(function () {
+        var FolderName = jQuery(this).parents().find("#folder-name").val();
+        if(
+            jQuery(this).parents().find("#folder").prop("checked")
+        ){
+            jQuery(".fold-create").before(
+                '<div class="fold-item"><a href="#" class="link"> <img src="img/folder.png" alt=""></a><div class="fold-item-name">' +
+                FolderName +
+                '</div></div>'
+            );
+        }
+        else {
+            jQuery(".fold-create").before(
+                '<div class="fold-item fold-ftp"><a href="#" class="link"> <img src="img/ftp.png" alt=""></a><div class="fold-item-name">' +
+                FolderName +
+                '</div></div>'
+            );
+        }
+    });
 </script>

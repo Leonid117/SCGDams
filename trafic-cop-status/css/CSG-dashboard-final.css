@@ -135,6 +135,7 @@ body{
     height: 155px;
     border: 1px solid #dfdfe4;
     text-align: center;
+    cursor: pointer;
 }
 .fold-create a{
     color: #dfdfe4;
@@ -192,6 +193,63 @@ body{
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 10px;
+}
+.modal-fold-create input[type="radio"]:before {
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    left: -5px;
+    top: -5px;
+    cursor: pointer;
+}
+.modal-fold-create input[type="radio"]:after {
+    position: relative;
+    top: -17px;
+    left: 7px;
+}
+.modal-fold-create input[type="radio"] + label {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    margin: 0 40px 0 0;
+    top: -1px;
+    cursor: pointer;
+    padding-left: 17px;
+}
+.folder-name label {
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 16px;
+    left: 17px;
+    background: white;
+    padding: 0 4px;
+}
+.folder-name select, input[type="text"] {
+    border: 2px solid #e1e4eb;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 18px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.folder-name{
+    margin-bottom: 40px;
+}
+.modal-fold-create h6{
+    padding-left: 25px;
+}
+.FolderType{
+    padding-left: 20px;
+    margin: 20px 0 20px 0;
+}
+.modal-title {
+    display: inline-block;
 }
 @media (max-width: 1440px){
     .main-block, .drag-and-drop {
