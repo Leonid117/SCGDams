@@ -1,0 +1,229 @@
+.trafic-cop-status .main-block-header h1 span{
+    color: #ccc;
+}
+.main-block-header{
+    padding-left: 35px;
+    padding-top: 13px;
+}
+.looking_for{
+    display: inline-block;
+    width: 100%;
+    background: #f7f9fc;
+    border: 1px solid #e1e4eb;
+    height: 72px;
+    line-height: 70px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+body{
+    background: #fff;
+}
+.buttons{
+    float: right;
+}
+.buttons button{
+    height: 45px;
+    line-height: 41px;
+    border-radius: 40px;
+    margin: 0 0 0 5px;
+}
+.buttons .transparent-button{
+    color: black;
+    width: 90px;
+    background: transparent;
+    border: 1px solid #adadbd;
+}
+.buttons .blue-button{
+    width: 140px;
+    background: #5081fb;
+    color: #fff;
+    border: 1px solid #5081fb;
+}
+.trafic-cop-status .main-block-header h1 {
+    margin: 30px 0 0 0;
+}
+.small-chevron{
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    font-size: 9px;
+    line-height: 17px;
+    margin: 0 0 0 0;
+    position: relative;
+    top: -3px;
+    left: 20px;
+}
+.fold-grid{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+}
+.fold-item{
+    display: inline-block;
+    width: 20%;
+    float: left;
+    margin: 0 0 83px 9%;
+    position: relative;
+    max-width: 178px;
+}
+.fold-item-head .fa-ellipsis-h{
+    float: right;
+    text-align: center;
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    border: 1px solid;
+    margin: 8px 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fold-item-head .link{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.link img{
+    box-shadow: 0px 12px 20px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+.fold-item-name{
+    text-align: center;
+    margin: 35px 0 0 0;
+    font-size: 15px;
+}
+
+.fold-item-name{
+    text-align: center;
+    margin: 33px 0 0 0;
+    font-size: 16px;
+}
+.link{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.favorite{
+    display: none;
+}
+
+.progress-rma > div{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 19%;
+    margin: 0 1% 0 0;
+    padding-bottom: 15px;
+    border-bottom: 4px solid;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #d1d1d2;
+}
+.progress-rma{
+    display: inline-block;
+    width: 100%;
+    margin: 50px 0 0 0;
+    padding-bottom: 75px;
+}
+.brdb {
+    border-bottom: 1px solid #e1e4eb;
+}
+.main-block-sidebar-open{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+.main-block-header{
+    margin: 0;
+}
+.progress-rma, .trafic-cop-status .main-block-header h1, .steps-content{
+    padding: 0 15% 75px 290px;
+}
+.trafic-cop-status .main-block-header h1{
+    padding-bottom: 0;
+}
+.progress-rma .rma-step-active{
+    color: #633afd;
+}
+.progress-rma-step1-buttons-block{
+    margin: 9% auto;
+    text-align: center;
+    width: 42%;
+}
+.progress-rma-step1-buttons-block .black-btn{
+    height: 60px;
+    line-height: normal;
+    font-weight: 300;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0px 7px 16px 1px rgba(0, 0, 0, 0.41);
+}
+.progress-rma-step1-buttons-block .black-btn:hover,
+.progress-rma-step1-buttons-block .black-btn:focus{
+    background: #633afd;
+    box-shadow: 0px 7px 16px 1px #633afd61;
+
+
+}
+
+
+
+@media (max-width: 1440px){
+    .main-block {
+        padding-left: 60px;
+    }
+    .main-block-header {
+        padding: 0;
+    }
+    .progress-rma, .trafic-cop-status .main-block-header h1, .steps-content{
+        padding: 0 0 75px 20px;
+    }
+}
+@media (max-width: 767px){
+    .progress-rma-step1-buttons-block .black-btn{
+        font-size: 14px;
+    }
+    .main-block {
+        padding-left: 0;
+    }
+    .looking_for {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .progress-rma > div{
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .progress-rma, .steps-content{
+        padding: 0 0 75px 0px;
+    }
+    .buttons .transparent-button{
+        width: 60px;
+    }
+    .buttons .blue-button {
+        width: 85px;
+    }
+    .link img{
+        width: 100%;
+    }
+    .buttons button {
+        font-size: 10px;
+        height: 35px;
+        line-height: 31px;
+        border-radius: 40px;
+        margin: 0;
+    }
+}
+
+
+
+
+
+

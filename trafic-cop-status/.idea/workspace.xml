@@ -11,32 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SCG-dashboard-final.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SCG-dashboard-final.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-              <folding>
-                <element signature="e#4960#4967#1" expanded="true" />
-                <element signature="e#5322#5329#1" expanded="true" />
-                <element signature="e#5684#5691#1" expanded="true" />
-                <element signature="e#12707#12714#1" expanded="true" />
-                <element signature="e#14333#14340#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CSG-dashboard-final.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/CSG-dashboard-final.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,12 +21,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rma.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rma.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="175" column="62" lean-forward="false" selection-start-line="175" selection-start-column="62" selection-end-line="175" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rma.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/rma.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SERV</find>
-      <find>descr</find>
       <find>text</find>
       <find>.create-invoice</find>
       <find>WebApplications</find>
@@ -78,13 +70,16 @@
       <find>767</find>
       <find>func</find>
       <find>fold-create</find>
-      <find>.fold-item</find>
       <find>#</find>
       <find>&lt;a href=&quot;#&quot;&gt;</find>
+      <find>.fold-item</find>
+      <find>brd</find>
+      <find>row main-block-header</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>ugp-table</replace>
+      <replace>&lt;a href=&quot;javascript:void(0);&quot;&gt;</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -121,6 +116,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/CSG-dashboard-final.css" />
         <option value="$PROJECT_DIR$/SCG-dashboard-final.html" />
+        <option value="$PROJECT_DIR$/rma.html" />
+        <option value="$PROJECT_DIR$/css/rma.css" />
       </list>
     </option>
   </component>
@@ -191,9 +188,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\OSPanel\domains\SCGDams\trafic-cop-status\js" />
       <recent name="D:\OSPanel\domains\SCGDams\trafic-cop-status\css" />
       <recent name="D:\OSPanel\domains\SCGDams\trafic-cop-status" />
+      <recent name="D:\OSPanel\domains\SCGDams\trafic-cop-status\js" />
       <recent name="D:\OSPanel\domains\trafic-cop-status" />
     </key>
   </component>
@@ -241,12 +238,12 @@
       <workItem from="1531213154859" duration="15158000" />
       <workItem from="1531302010871" duration="13125000" />
       <workItem from="1531389842142" duration="15467000" />
-      <workItem from="1531476254987" duration="6427000" />
+      <workItem from="1531476254987" duration="11136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="256640000" />
+    <option name="totallyTimeSpent" value="261349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,8 +288,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/search-companies.css" />
-    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.css" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/style.css" />
@@ -312,13 +307,6 @@
     <entry file="file://$PROJECT_DIR$/style.css" />
     <entry file="file://$PROJECT_DIR$/new-contact-page.css" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/css/search-companies.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/dashboard-click-folder.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -468,14 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="1487" column="0" lean-forward="true" selection-start-line="1487" selection-start-column="0" selection-end-line="1487" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/dropzone.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -522,11 +502,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
+    <entry file="file://$PROJECT_DIR$/SCG-dashboard-final.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="169">
+          <caret line="95" column="20" lean-forward="true" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#4960#4967#1" expanded="true" />
+            <element signature="e#5322#5329#1" expanded="true" />
+            <element signature="e#5684#5691#1" expanded="true" />
+            <element signature="e#12707#12714#1" expanded="true" />
+            <element signature="e#14333#14340#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,17 +525,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SCG-dashboard-final.html">
+    <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#4960#4967#1" expanded="true" />
-            <element signature="e#5322#5329#1" expanded="true" />
-            <element signature="e#5684#5691#1" expanded="true" />
-            <element signature="e#12707#12714#1" expanded="true" />
-            <element signature="e#14333#14340#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="402">
+          <caret line="107" column="49" lean-forward="true" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rma.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="175" column="62" lean-forward="false" selection-start-line="175" selection-start-column="62" selection-end-line="175" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="1273" column="29" lean-forward="false" selection-start-line="1273" selection-start-column="23" selection-end-line="1273" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/search-companies.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1672">
+          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/rma.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
