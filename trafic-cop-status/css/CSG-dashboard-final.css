@@ -57,16 +57,17 @@ body{
 }
 .fold-grid{
     display: inline-block;
-    width: 100%;
+    width: 80%;
     margin-top: 70px;
 }
-.fold-item{
+.fold-item, .fold-create{
     display: inline-block;
     width: 20%;
     float: left;
-    margin: 0 0 83px 9%;
+    margin: 0 0 83px 10%;
     position: relative;
     max-width: 178px;
+    cursor: pointer;
 }
 .fold-ftp .link img{
     box-shadow: none;
@@ -251,6 +252,139 @@ body{
 .modal-title {
     display: inline-block;
 }
+.trafic-cop-status .folder-activity {
+    max-width: 330px;
+    background: #f7f9fc;
+    top: 280px;
+    position: absolute;
+    height: auto;
+    border: 1px solid;
+}
+.folder-activity-head .close{
+    opacity: 1;
+    font-size: 36px;
+    line-height: 16px;
+}
+.folder-activity-head{
+    padding: 15px 0 20px 15px;
+}
+.folder-activity-head h4{
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.folder-activity-head h1{
+    font-size: 23px;
+    margin: 0;
+}
+.section-header{
+    color: white;
+    background: black;
+    font-size: 12px;
+    line-height: 45px;
+    padding: 0 0 0 15px;
+}
+.section-header .fa-cog{
+    float: right;
+    font-size: 18px;
+    line-height: 46px;
+    margin-right: 5px;
+}
+.section-body{
+    padding: 15px 0 15px 15px;
+}
+.user{
+    display: inline-block;
+    margin: 5px 10px 15px 0;
+    position: relative;
+}
+.user-status.online{
+    width: 14px;
+    height: 15px;
+    background: #4ece3d;
+    display: inline-block;
+    position: absolute;
+    right: -4px;
+    top: -3px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.folder-activity p{
+    font-size: 13px;
+}
+.add-user{
+    display: inline-block;
+    position: relative;
+    margin: 5px 10px 15px 0px;
+    width: 48px;
+    height: 48px;
+    background: #1c232d;
+    line-height: 48px;
+    text-align: center;
+    border-radius: 10px;
+}
+.add-user-plus{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: normal;
+    background: #4ece3d;
+    vertical-align: middle;
+    color: #1c232d;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: fantasy;
+    border-radius: 50%;
+}
+.latest-uploads-file-format{
+    display: inline-block;
+    float: left;
+}
+.latest-uploads-file-name{
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 0 12px;
+    float: left;
+    line-height: 27px;
+}
+.latest-uploads-file-size{
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 5px 0 0;
+    line-height: 27px;
+    color: #95b0c8;
+}
+.latest-uploads-file{
+    width: 100%;
+    display: inline-block;
+}
+.activity-user-photo img{
+    max-width: 36px;
+}
+.activity-user-photo{
+    display: inline-block;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.activity-user-inf{
+    display: inline-block;
+    font-size: 13px;
+    max-width: 140px;
+}
+.shots_on{
+    float: right;
+    margin: 0 23px 0 0;
+    font-size: 13px;
+}
+.trafic-cop-status .main-block-header h1 {
+    width: 20%;
+}
+
+
+
+
+
 @media (max-width: 1440px){
     .main-block, .drag-and-drop {
         padding-left: 80px;
@@ -277,9 +411,12 @@ body{
         border-radius: 40px;
         margin: 0;
     }
+    .modal-fold-create input[type="radio"] + label {
+        margin: 0 20px 0 0;
+    }
 }
 @media (max-width: 425px) {
-    .fold-item{
+    .fold-item, .fold-create{
         width: 40%;
     }
     .buttons {
@@ -290,9 +427,11 @@ body{
         height: auto;
     }
 }
-
-
-
+@media (max-width: 1700px){
+    .trafic-cop-status .right-block {
+        padding-left: 0;
+    }
+}
 
 
 
