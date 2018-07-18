@@ -141,7 +141,7 @@ body{
 .main-block-header{
     margin: 0;
 }
-.progress-rma, .trafic-cop-status .main-block-header h1, .steps-content{
+.progress-rma, .trafic-cop-status .main-block-header h1, .progress-rma-step1-content{
     padding: 0 15% 75px 290px;
 }
 .trafic-cop-status .main-block-header h1{
@@ -221,8 +221,211 @@ body{
         margin: 0;
     }
 }
+.input-container {
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+.information{
+    padding: 0 15% 0 240px;
+    display: inline-block;
+    border-bottom: 1px solid #e1e4eb;
+    border-top: 1px solid #e1e4eb;
+}
+.information > div{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 0 40px 75px 55px;
+}
+.progress-rma-step2-content-buttons-block{
+    padding: 20px 15% 35px 295px;
+    display: inline-block;
+    width: 100%;
+}
+.progress-rma-step2-content-buttons-block .back{
+    width: 62px;
+    height: 36px;
+    background: #633afd;
+    color: white;
+    text-align: center;
+    padding: 0 13px;
+    font-size: 11px;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px 0px #633afd;
+}
+.progress-rma-step2-content-buttons-block .next {
+    width: 62px;
+    height: 36px;
+    color: #d1d1d2;
+    text-align: center;
+    padding: 0 13px;
+    font-size: 11px;
+    border: 1px solid #d1d1d2;
+    border-radius: 4px;
+    background: #fff;
+    margin-left: 10px;
+}
+.company-information, .product-information{
+    background: #f7f9fc;
+    border-left: 1px solid #e1e4eb;
+    border-right: 1px solid #e1e4eb;
+}
+.information > div h4{
+    text-transform: capitalize;
+    margin: 30px 0 0 0;
+}
+label{
+    color: #adadbd;
+}
+#same-info{
+    margin: 50px 5px 0px 0;
+}
+label[for=same-info]{
+    color: black;
+    position: static;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+.blue-star{
+    color: #633afd;
+}
+.blue-question{
+    float: right;
+    position: relative;
+    right: 0;
+    top: 30px;
+    line-height: 0;
+    font-size: 12px;
+    color: #633afd;
 
+}
+.half-width{
+    width: 50%;
+}
+@media (max-width: 1700px){
+    .information {
+        padding: 0 0 0 240px;
+    }
+}
+@media (max-width: 1440px){
+    .information, .steps-content{
+        padding: 0;
+    }
+    .progress-rma-step2-content-buttons-block{
+        padding-left: 20px;
+    }
+}
+@media (max-width: 767px){
+    .information > div{
+        width: 100%;
+        padding: 0 20px 75px 20px;
+    }
+}
+.product-information-buttons-block{
+    width: 75%;
+    float: right;
+    padding: 40px 0 0 0;
+}
+.product-information-buttons-block button{
+    height: 45px;
+    line-height: 41px;
+    border-radius: 40px;
+    background: transparent;
+    width: 47%;
+    border: 1px solid #999ca2;
+    color: #000;
+    margin: 0 2% 20px 0;
+}
+.product-information-buttons-block .black-btn{
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    margin: 0 2% 20px 0;
+    display: inline-block;
+    text-align: center;
+    width: 47%;
+}
+.noFileChoose{
+    color: #999ca2;
+    font-size: 14px;
+}
+.problemDescription{
+    width: 100%;
+    height: 170px;
+}
+.step3-question{
+    display: inline-block;
+    font-size: 17px;
+    width: 50%;
+    vertical-align: top;
+    font-weight: 500;
+}
 
+.fallure-information input[type="radio"]:before {
+    background: #fff;
+    width: 25px;
+    height: 25px;
+}
+input[type="radio"]:checked:after {
+    content: none;
+}
+.fallure-information input:checked:before {
+    border: 9px solid #633afd;
+    box-sizing: border-box;
+    width: 29px;
+    height: 29px;
+}
+.fallure-information input[type="radio"] ~ label {
+    font-size: 17px;
+    margin: 0 13%0 0;
+    color: #000;
+    vertical-align: middle;
+}
+.fallure-information .input-container{
+    margin: 47px 0 19px 0;
+}
+.fallure-information  .product-information-buttons-block{
+    float: left;
+    padding: 0;
+}
+.fallure-information  .product-information-buttons-block h4{
+    margin-top: 20px;
+}
+.fallure-information .noFileChoose {
+    margin: 20px 0 40px 0;
+}
+.fallure-information .Description-textarea{
+    margin: 20px 0 0 0;
+}
+/* webkit solution */
+#todaysDate::-webkit-input-placeholder { text-align:right;
+    color: #e1e4eb;}
+/* mozilla solution */
+#todaysDate:-moz-placeholder { text-align:right;
+    color: #e1e4eb;}
+
+.uploadbutton {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+}
+@media (max-width: 1200px){
+    .step3-question {
+        font-size: 14px;
+    }
+    .fallure-information input[type="radio"] ~ label {
+        font-size: 14px;
+        margin: 6px 7% 0 0;
+    }
+    .product-information-buttons-block{
+        width: 100%;
+    }
+}
 
 
 

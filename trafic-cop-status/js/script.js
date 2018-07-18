@@ -111,4 +111,7 @@ $(document).ready(function () {
         jQuery(this).parents().find('#Storefront-content').addClass('hide');
         jQuery(this).parents().find('#Administration-content').removeClass('hide');
     });
+    $( function() {
+        $( "#purchaseDate, #todaysDate" ).datepicker();
+    } );
 });
