@@ -427,12 +427,12 @@ input[type="radio"]:checked:after {
     }
 }
 
-.progress-rma-step4-content{
+.progress-rma-step4-content, .progress-rma-step5-content{
     padding: 20px 15% 35px 295px;
     display: inline-block;
     width: 100%;
 }
-.rma-confirm-table {
+.rma-confirm-table, .request-detail-table {
     box-shadow: 0 9px 20px 1px rgba(0, 0, 0, 0.14);
     display: inline-block;
     width: 100%;
@@ -540,13 +540,13 @@ input[type="radio"]:checked:after {
     }
 }
 @media (max-width: 767px) {
-    .table-row > div, .table-head > div {
+    .ugp-table.rma-confirm-table .table-row > div, .ugp-table.rma-confirm-table .table-head > div {
         display: block;
         width: 100% !important;
         padding-left: 2% !important;
     }
 
-    .rma-confirm-table .table-head {
+    .ugp-table.rma-confirm-table .table-head {
         height: auto;
         width: 30%;
         display: inline-block;
@@ -562,35 +562,35 @@ input[type="radio"]:checked:after {
         background: #d1d1d2;
     }
 
-    .rma-confirm-table .table-row {
+    .ugp-table.rma-confirm-table .table-row {
         width: 69%;
         display: inline-block;
         border: 0;
     }
 
-    .ugp-table-container .table-row > div {
+    .ugp-table.rma-confirm-table .ugp-table-container .table-row > div {
         padding-top: 20px;
     }
 
-    .ugp-table-head .col3 {
+    .ugp-table.rma-confirm-table .ugp-table-head .col3 {
         height: 85px;
         line-height: 77px;
     }
 
-    .ugp-table-head > div {
+    .ugp-table.rma-confirm-table.ugp-table-head > div {
         height: 43px;
     }
 
     .qty-return {
         width: 46%;
     }
-    .rma-confirm-table .table-row .col4{
+    .ugp-table.rma-confirm-table .table-row .col4{
     padding-right: 20%;
     text-align: right;
     }
 }
 @media (max-width: 425px) {
-    .rma-confirm-table .search-company .show_all {
+    .ugp-table.rma-confirm-table .search-company .show_all {
         margin: 22px 5px 0 0;
         font-size: 11px;
     }
@@ -598,18 +598,108 @@ input[type="radio"]:checked:after {
         padding: 20px 5px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.request-completed{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0 0 0;
+}
+.request-completed .fa-check{
+    width: 80px;
+    height: 80px;
+    background: #633afd;
+    line-height: 80px;
+    color: white;
+    font-size: 40px;
+    border-radius: 50%;
+}
+.request-completed-violet-text{
+    color: #633afd;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 10px 0 0 0;
+}
+.request-completed > p{
+    margin: 30px auto;
+    font-size: 17px;
+    width: 40%;
+}
+.report-btn{
+    width: 37%;
+    height: 60px;
+    background: #633afd;
+    color: white;
+    text-align: center;
+    padding: 0 13px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    margin: 27px 0 0 0;
+    box-shadow: 0 4px 12px 0px #633afd;
+}
+.request-detail-table{
+    margin: 60px 0 30px 0;
+}
+.request-detail-table .ugp-table-container{
+    padding: 15px 30px 0 30px;
+}
+.request-detail-table .col1 {
+    width: 77%;
+}
+.request-detail-table .col2 {
+    width: 9%;
+}
+.request-detail-table .col3 {
+    width: 12%;
+    text-align: right;
+}
+.request-detail-table .table-row >div {
+    vertical-align: inherit;
+    padding-top: 0;
+    line-height: 70px;
+}
+.request-detail-img, .request-detail-number{
+    display: inline-block;
+}
+.request-detail-img{
+    width: 80px;
+    line-height: 50px;
+    border-right: 1px solid #d1d1d2;
+    margin-right: 20px;
+}
+.request-detail-img img{
+    width: 90%;
+    max-width: 40px;
+}
+.request-detail-table .table-row{
+    padding-bottom: 0;
+}
+@media (max-width: 1440px){
+    .progress-rma-step5-content {
+        padding: 20px 60px;
+    }
+}
+@media (max-width: 767px) {
+    .progress-rma-step5-content {
+        padding: 20px 5px;
+    }
+    .report-btn{
+        width: 50%;
+        height: 45px;
+        font-size: 14px;
+    }
+    .request-completed > p {
+        width: 80%;
+    }
+    .request-detail-table .ugp-table-container {
+        padding: 15px 0 0 0;
+    }
+    .request-detail-table .col1 {
+        width: 65%;
+    }
+    .request-detail-table .col2,    .request-detail-table .col3 {
+        width: 16%;
+    }
+}
 
 
