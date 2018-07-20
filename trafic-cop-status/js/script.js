@@ -150,6 +150,7 @@ function initCalendar() {
     $('#calendar td').mousedown(function () {  // Click or start of dragging
         dateDragStart = new Date($(this).attr('data-year'), $(this).attr('data-month'), $(this).find('a').html());
         $(this).find('a').addClass('ui-state-active');
+        $(this).find('a').addClass('drag-start');
         return false;
     });
 
@@ -159,7 +160,19 @@ function initCalendar() {
             thisDates.push(new Date($(this).parent().attr('data-year'), $(this).parent().attr('data-month'), $(this).html()));
         });
         dateDragStart = undefined;
+        $(this).find('a').addClass('drag-over');
+        var drugStart = $('.drag-start').html();
+        var drugOver = $('.drag-over').html();
+        $('.modal-footer').prepend('<div class="selected-dates">\n' +
+            '                        <img src="img/Icon-calendar.png" alt="">\n' +
+            '                        <span class="first-selected-date">'+ drugStart +'</span>-\n' +
+            '                        <span class="last-selected-date">'+ drugOver +'</span> <span class="month">Oct</span> - Done\n' +
+            '                    </div>');
+        $('.drag-start').removeClass('drag-start');
+        $('.drag-over').removeClass('drag-over');
+
         return false;
+
     });
     $(document).mouseup(function () {
         dateDragStart = undefined;
@@ -176,8 +189,7 @@ function initCalendar() {
             for (var d = new Date(dateDragStart); d >= thisDate; d.setDate(d.getDate() - 1)) {
                 calendarTds.find('a').filter('a:textEquals(' + d.getDate() + ')').addClass('ui-state-active');
             }
-            $(this).find('a').addClass('ui-state-active');
-        }
+            $(this).find('a').addClass('ui-state-active');}
     });
 
     $('#calendar td').mouseleave(function() {
@@ -200,6 +212,7 @@ function initCalendar() {
     $('.ui-datepicker-clear-month').click(function () {
         thisDates = [];
         calendarTds.find('a').removeClass('ui-state-active');
+        $('.selected-dates').remove();
     });
 
     $('a.ui-datepicker-next, a.ui-datepicker-prev').click(function() {

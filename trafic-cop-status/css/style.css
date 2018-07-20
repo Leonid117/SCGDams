@@ -1768,7 +1768,9 @@ select {
     opacity: 1;
     color: white;
 }
-
+.selected-dates img{
+    margin: -4px 10px 0 0;
+}
 
 
 
