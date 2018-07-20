@@ -161,7 +161,7 @@
         <div class="main-table">
             <div class="recent-workflow">
                 <h6>recent workflow</h6>
-                <img src="img/recent-workflow.png" alt="">
+                <img src="img/recent-workflow.png" alt="" data-toggle="modal" data-target="#modalCalendar">
                 <div class="input-form">
                     <input type="text" class="type-task" placeholder="Type a new task">
                     <button>OK</button>
@@ -286,7 +286,28 @@
             <h6 class="brd">other actions...</h6>
         </div>
     </div>
-
+    <!--modal-calendar-->
+    <div class="modal fade modalCalendar" id="modalCalendar"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close-calendar" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5>Choose The Shipping Date</h5>
+                </div>
+                <div id="calendar"></div>
+                <div class="modal-footer">
+                    <div class="selected-dates">
+                        <img src="" alt="">
+                        <span class="first-selected-date">25</span>-
+                        <span class="last-selected-date">31</span> <span class="month">Oct</span> - Done
+                    </div>
+                    <button class="ui-datepicker-clear-month violet-btn" title="Clear month">Cansel</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

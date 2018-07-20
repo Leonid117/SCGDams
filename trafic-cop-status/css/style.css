@@ -1558,6 +1558,9 @@ select {
     border-radius: 50%;
     color: #fff;
 }
+.modalCalendar .ui-state-hover{
+    border: 0;
+}
 .ui-datepicker {
     width: 27.4em;
 }
@@ -1640,25 +1643,131 @@ select {
         padding: 15px 0 0 3px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.recent-workflow>img{
+    cursor: pointer;
+}
+.ui-datepicker-clear-month {
+    position: absolute;
+    top: 9px;
+    right: 32px;
+    height: 100%;
+    line-height: 100%;
+    display: inline;
+    cursor: pointer;
+    color: red!important;
+}
+.modalCalendar .modal-dialog {
+    width: 370px;
+}
+.modalCalendar .ui-state-default, .modalCalendar .ui-widget-content .ui-state-default{
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    line-height: 27px;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+.modalCalendar .ui-datepicker td{
+    padding: 5px 0 10px 0;
+}
+.modalCalendar .ui-datepicker {
+    width: 100%;
+    margin: 0 auto 30px auto;
+}
+.modalCalendar .ui-datepicker-calendar thead{
+    border: 0;
+}
+.modalCalendar .ui-datepicker .ui-datepicker-header{
+    border: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+.modalCalendar .ui-datepicker .ui-datepicker-title {
+    line-height: 53px;
+    font-size: 13px;
+    background: #48494a;
+    color: white;
+    height: 53px;
+    font-weight: 300;
+}
+.modalCalendar .ui-datepicker .ui-datepicker-prev, .modalCalendar .ui-datepicker .ui-datepicker-next {
+    background: #181718;
+    cursor: pointer;
+}
+.modalCalendar .ui-datepicker .ui-datepicker-next .ui-icon-circle-triangle-e:before,
+.modalCalendar .ui-datepicker .ui-datepicker-prev .ui-icon-circle-triangle-w:before{
+    color: #fff;
+}
+.modalCalendar .ui-datepicker table {
+    width: 84%;
+    margin: 0 auto;
+}
+.modalCalendar .ui-datepicker-clear-month {
+    position: static;
+    top: 9px;
+    right: 32px;
+    width: 100px;
+    height: 36px;
+    line-height: 100%;
+    display: inline-block;
+    cursor: pointer;
+    color: white !important;
+    font-weight: 300;
+}
+.violet-btn {
+    width: 37%;
+    height: 60px;
+    background: #633afd;
+    color: white;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px 0px #633afd;
+}
+.modalCalendar .modal-footer {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+.selected-dates{
+    width: 85%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #e1e4eb;
+    line-height: 41px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.modalCalendar .ui-widget.ui-widget-content{
+    border: 0;
+}
+.modalCalendar  .modal-header {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 0;
+}
+.modalCalendar  .modal-header h5{
+    font-size: 17px;
+    font-weight: 400;
+}
+.close-calendar{
+    background: black !important;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    border-radius: 50%;
+    font-size: 30px;
+    opacity: 1;
+    color: white;
+}
+.close:focus, .close:hover{
+    opacity: 1;
+    color: white;
+}
 
 
 
