@@ -1771,10 +1771,24 @@ select {
 .selected-dates img{
     margin: -4px 10px 0 0;
 }
+.ui-selected{
+    background-image: url(../img/Selection.png);
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+
+}
+.drag-start{
+    background-image: url(../img/Selection.png);
+    background-repeat: no-repeat;
+    background-position: -10% 30%;
+}
 
 
-
-
+.drag-over{
+    background-image: url(../img/Selection.png);
+    background-repeat: no-repeat;
+    background-position: 110% 30%;
+}
 
 
 

@@ -150,7 +150,7 @@ function initCalendar() {
     $('#calendar td').mousedown(function () {  // Click or start of dragging
         dateDragStart = new Date($(this).attr('data-year'), $(this).attr('data-month'), $(this).find('a').html());
         $(this).find('a').addClass('ui-state-active');
-        $(this).find('a').addClass('drag-start');
+        $(this).find('a').addClass('drag-select');
         return false;
     });
 
@@ -160,16 +160,29 @@ function initCalendar() {
             thisDates.push(new Date($(this).parent().attr('data-year'), $(this).parent().attr('data-month'), $(this).html()));
         });
         dateDragStart = undefined;
-        $(this).find('a').addClass('drag-over');
-        var drugStart = $('.drag-start').html();
-        var drugOver = $('.drag-over').html();
+        $(this).find('a').addClass('drag-select');
+        var drugStart = $('.drag-select:first').html();
+        var drugOver = $('.drag-select:last').html();
+        var Mounth = $('.ui-datepicker-month').html().substr(0,3);
+
+
+        if (drugStart == drugOver){
+            $('.modal-footer').prepend('<div class="selected-dates">\n' +
+                '                        <img src="img/Icon-calendar.png" alt="">\n' +
+                '                        <span class="last-selected-date">'+ drugOver +'</span> <span class="month">'+ Mounth + '</span> - Done\n' +
+                '                    </div>');
+        }
+        else {
         $('.modal-footer').prepend('<div class="selected-dates">\n' +
             '                        <img src="img/Icon-calendar.png" alt="">\n' +
             '                        <span class="first-selected-date">'+ drugStart +'</span>-\n' +
-            '                        <span class="last-selected-date">'+ drugOver +'</span> <span class="month">Oct</span> - Done\n' +
+            '                        <span class="last-selected-date">'+ drugOver +'</span> <span class="month">'+ Mounth + '</span> - Done\n' +
             '                    </div>');
-        $('.drag-start').removeClass('drag-start');
-        $('.drag-over').removeClass('drag-over');
+        }
+        
+        $('.drag-select:first').addClass('drag-start');
+        $('.drag-select:last').addClass('drag-over');
+        $('.drag-select').removeClass('drag-select');
 
         return false;
 
