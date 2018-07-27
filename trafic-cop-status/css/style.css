@@ -986,6 +986,7 @@ body{
     height: 27px;
     font-size: 9px;
     padding-left: 19px;
+    padding-right: 0px;
     vertical-align: middle;
 }
 .date img{

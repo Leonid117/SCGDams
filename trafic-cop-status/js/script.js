@@ -127,11 +127,6 @@ $(function() {
 });
 
 function initCalendar() {
-    // $('div.ui-widget-header').append('\
-    //     <a class="ui-datepicker-clear-month" title="Clear month">\
-    //         X\
-    //     </a>\
-    // ');
 
     var thisMonth = $($($('#calendar tbody tr')[2]).find('td')[0]).attr('data-month');
     var dateDragStart = undefined; // We'll use this variable to identify if the user is mouse button is pressed (if the user is dragging over the calendar)
@@ -179,7 +174,7 @@ function initCalendar() {
             '                        <span class="last-selected-date">'+ drugOver +'</span> <span class="month">'+ Mounth + '</span> - Done\n' +
             '                    </div>');
         }
-        
+
         $('.drag-select:first').addClass('drag-start');
         $('.drag-select:last').addClass('drag-over');
         $('.drag-select').removeClass('drag-select');

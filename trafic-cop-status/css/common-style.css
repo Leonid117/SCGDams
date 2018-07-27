@@ -30,7 +30,7 @@ body{
 }
 .site-wrapper-inner {
         vertical-align: top;
-    padding: 15vw 0;
+    padding: 15vw 0 14vw 0;
 }
 .cover {
     padding: 7% 0 21% 0;
@@ -104,4 +104,10 @@ body{
     font-size: 13px;
     }
 
+}
+@media (max-width: 768px){
+    .site-wrapper-inner {
+        vertical-align: middle;
+        padding: 35vw 0;
+    }
 }
