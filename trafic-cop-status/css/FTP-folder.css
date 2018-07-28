@@ -222,24 +222,34 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .grid-item-inf{
     font-size: 12px;
     line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .grid-item-footer-information{
     height: 100%;
+    width: 80%;
     padding: 15px 0 0 25px;
 }
 .grid-item-fold{
     display: inline-block;
     float: right;
     height: 100%;
+    width: 20%;
+    text-align: center;
 }
 .grid-item-fold a{
     display: inline-block;
     height: 100%;
-    padding: 17px;
+    padding: 17px 0;
+    width: 100%;
 }
 .grid-item-fold a:hover{
     background: #633afd;
@@ -299,5 +309,95 @@ body{
     .SWB {
         font-size: 10px;
         padding: 0 10px;
+    }
+}
+@media (max-width: 1790px) {
+    .SWB-buttons{
+        margin: 0 0 0 16%;
+    }
+}
+@media (max-width: 1700px) {
+    .main-block-sidebar-open {
+        padding-right: 0;
+    }
+}
+@media (max-width: 1440px) {
+    .trafic-cop-status .right-block {
+        padding-left: 0;
+    }
+    .main-block-sidebar-open {
+        padding-left: 65px;
+    }
+    .SWB, .pins{
+        left: -65px;
+        padding-left: 65px;
+
+    }
+}
+@media (max-width: 1100px) {
+    .SWB-buttons {
+        margin: 0 0 0 11%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .grid-item, .final-files .grid-item{
+        width: 31%;
+    }
+}
+@media (max-width: 1024px) {
+    .SWB-buttons {
+        margin: 0 0 0 1%;
+    }
+    .SWB-buttons button{
+        height: 50px;
+        font-size: 10px;
+        width: 180px;
+    }
+    .SWB-buttons button img{
+        max-width: 15%;
+    }
+    .links-choose .setting {
+        margin-right: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .grid-item, .final-files .grid-item {
+        width: 80%;
+        margin: 0 auto 20px auto;
+        float: none;
+        display: block;
+    }
+    .main-block-sidebar-open {
+        padding-left: 0;
+    }
+    .SWB, .pins {
+        left: -20px;
+        padding-left: 20px;
+    }
+    .SWB {
+        height: auto;
+        line-height: 93px;
+        text-align: center;
+    }
+    .links-choose, .pins {
+        height: auto;
+        line-height: 50px;
+    }
+    .links-choose .setting {
+        margin-right: 20px;
+        float: none;
+    }
+}
+@media (max-width: 425px) {
+    .choosed-files-right{
+        float: none;
+    }
+    .choosed-files {
+        border: 0;
+        height: auto;
+        padding-left: 0;
+        text-align: center;
+        display: inline-block;
     }
 }
