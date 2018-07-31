@@ -1790,9 +1790,22 @@ select {
     background-repeat: no-repeat;
     background-position: 110% 30%;
 }
-
-
-
+.looking_for {
+    display: inline-block;
+    width: 100%;
+    background: #f7f9fc;
+    border: 1px solid #e1e4eb;
+    height: 72px;
+    line-height: 70px;
+    padding: 0 20px;
+    font-weight: 500;
+}
+.looking_for .buttons {
+    float: right;
+}
+.right{
+    float: right;
+}
 
 
 
