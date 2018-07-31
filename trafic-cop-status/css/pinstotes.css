@@ -19,7 +19,7 @@
 }
 
 .table-row {
-    padding-left: 2%;
+    padding-left: 0;
     height: 60px;
     display: inline-block;
     width: 100%;
@@ -27,8 +27,9 @@
 }
 
 .col1 {
-    width: 6%;
-    padding-left: 0;
+    border-right: 1px solid #e1e4eb;
+    width: 6.5%;
+    padding-left: 2%;
 }
 
 .col2 {
@@ -97,7 +98,6 @@
     width: 100%;
     float: left;
     background: #fff !important;
-    padding-left: 2%;
 }
 
 .table-prehead .table-row {
@@ -119,7 +119,7 @@
 }
 
 .table-prehead .col4 {
-    width: 32.5%;
+    width: 6%;
     text-align: center;
 }
 
@@ -138,11 +138,44 @@
 
 .table-prehead .col2 {
     border-right: 1px solid #e1e4eb;
-    text-align: center;
-}
-
-.table-prehead .col3 {
+    text-align: left;
+    padding-left: 7px;
     width: 27%;
+}
+.table-row-users .col2{
+    width: auto;
+    max-width: 90%;
+}
+.tome{
+    font-size: 12px;
+    color: #adadbd;
+    line-height: 12px;
+    font-weight: 300;
+    margin: -5px 0 20px 0;
+}
+.text{
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+    line-height: 22px;
+}
+.user-name{
+    font-weight: 500;
+    font-size: 17px;
+    display: inline-block;
+    line-height: 17px;
+}
+.user-email{
+    display: inline-block;
+    margin: 0 0 0 5%;
+    font-size: 12px;
+    color: #adadbd;
+    line-height: 12px;
+    font-weight: 300;
+}
+.table-prehead .col3 {
+    width: 60.5%;
     border-right: 1px solid #e1e4eb;
     font-size: 13px;
 }
@@ -150,12 +183,28 @@
 .table-prehead .col3 span {
     float: left;
 }
-
+.table-row-users{
+    height: auto;
+}
+.table-row-users .col1{
+    float: left;
+    margin: 33px 0 0 10px;
+    border: 0;
+}
+.table-row-users .col2{
+    padding: 19px 0 0 2%;
+}
 @media (max-width: 767px) {
     .main-table {
         width: 100%;
     }
-
+    .table-row-users .textaria-container {
+        width: 82%;
+    }
+    .user-email {
+        display: block;
+        margin: 0 0 20px 0;
+    }
     .table-prehead .col2 {
         width: 48%;
     }
@@ -169,7 +218,7 @@
     }
 
     .main-table-left button {
-
+        width: 190px;
         height: 28px;
         line-height: 28px;
         font-size: 7px;
@@ -211,7 +260,7 @@
     float: left;
     width: 80%;
     border: 0;
-    padding-left: 10%;
+    padding-left: 4%;
     font-size: 11px;
 }
 
@@ -219,7 +268,7 @@
     height: 60px;
     line-height: 60px;
     float: right;
-    width: 20%;
+    width: 9%;
     background: none;
     text-align: left;
     border: 0;
@@ -242,8 +291,7 @@
 }
 
 #settings {
-    float: right;
-    padding-right: 5%;
+    float: none;
 }
 
 .main-table .fa {
@@ -385,6 +433,55 @@
 .pag{
     display: none;
 }
+.attach{
+    white-space: normal;
+    display: inline-block;
+    padding: 15px 0 0 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+.fa-paperclip{
+    border: 0;
+    font-size: 11px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.attachment-file{
+    width: 100px;
+    height: 80px;
+    background: #ff0000;
+    display: inline-block;
+    margin: 0px 9px 10px 0;
+    float: left;
+}
+.attachment-files{
+    padding: 7px 0 0 22px;
+}
+.table-row-users .textaria-container{
+    width: 86%;
+}
+.table-row-users .textaria-container textarea{
+    width: 100%;
+    height: 100px;
+    margin: 10px 0 0 0;
+    padding: 10px 20px 0 23px;
+    font-size: 12px;
+    line-height: 12px;
+}
+.textaria-container button{
+    float: right;
+    height: 35px;
+    line-height: normal;
+    width: 154px;
+    font-size: 12px;
+    color: white;
+    background: black;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.66);
+    margin: 40px 0 10px 0;
+}
 
 @media (max-width: 1440px) {
     .main-block {
@@ -428,6 +525,9 @@
         width: 30%;
         float: right;
         border: 0;
+    }
+    .table-row-users .textaria-container {
+        width: 82%;
     }
     .table-block-link{
         width: 50%;
@@ -481,6 +581,7 @@
     }
     .pag > div{
         display: inline-block;
+        float: left;
     }
 }
 
