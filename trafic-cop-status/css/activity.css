@@ -1,0 +1,201 @@
+body{
+    background: #fff;
+}
+.lob{
+    margin: -10px 0 20px 0;
+}
+.payment-request{
+    background: url(../img/payment_request.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 20%;
+    background-size: 25px;
+    background-position: 10px 50%;
+    padding-left: 10%;
+    width: 200px;
+}
+.main-block h2{
+    font-size: 22px;
+    margin: 45px 0 0 0px;
+    font-weight: 400;
+}
+.input-container {
+    margin: 0 24px 15px 0;
+}
+.input-container-Serch{
+    width: 460px;
+}
+.input-container-Selected{
+    width: 270px;
+}
+.serch-btn{
+    margin: 0;
+    height: 60px;
+    text-align: center;
+    font-size: 20px;
+    width: 120px;
+    margin: 10px 0 0 0;
+}
+.list-orders-table{
+    border: 1px solid #e1e4eb;
+    margin: 0;
+}
+.col1{
+    width: 20%;
+    padding-left: 1.5%;
+}
+.col2{
+    width: 37%;
+}
+.col3{
+    width: 27%;
+}
+.col4{
+    width: 14%;
+    text-align: right;
+}
+.table-head{
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+}
+.table-row{
+    height: 75px;
+    font-size: 12px;
+    line-height: 75px;
+
+}
+
+.table-row > div {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 20px;
+    color: #ccc;
+}
+.table-row input[type="checkbox"]{
+    top: 0;
+    margin: 2px 6px 0 7px;
+}
+.actions{
+    font-size: 12px;
+}
+.actions .input-container{
+    font-size: 12px;
+    margin: 56px 0 0 8px;
+}
+.actions select{
+    font-size: 12px;
+    height: 35px;
+    border: 1px solid #e1e4eb;
+    border-radius: 4px;
+    width: 172px;
+}
+.submit-btn{
+    margin: 0 0 0 6px;
+    width: 62px;
+}
+.table-row .col3 a{
+    color: #633afd;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.table-row .col2{
+    color: #000;
+}
+.price{
+    color: #633afd;
+}
+.status-pending .status-point{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #27ff71;
+    position: static;
+    margin: 0 10px 0 0;
+}
+.status-pending{
+    color: #27ff71;
+}
+.add{
+    float: right;
+    display: inline-block;
+    box-shadow: 0 4px 12px 0px #633afd;
+    font-size: 12px;
+    width: 128px;
+    height: 39px;
+    margin: 0;
+}
+.input-form-date .input-container{
+    width: 290px;
+}
+.input-container-fw{
+    width: 100%;
+    max-width: 607px;
+}
+.loading{
+    display: inline-block;
+    float: left;
+    font-size: 10px;
+    font-weight: 500;
+}
+.dib{
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+    .main-block {
+        padding-left: 90px;
+    }
+}
+
+@media (max-width: 767px) {
+    .input-form-orderby .input-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-block {
+        padding-left: 15px;
+    }
+    .table-row input[type="checkbox"] {
+        margin: 2px 0px 0 0px;
+    }
+    .table-row, .table-head {
+        font-size: 9px;
+    }
+    .actions select {
+        width: 155px;
+    }
+}
+@media (max-width: 425px) {
+    .col3 {
+        width: 24%;
+    }
+}
+
+
+
+
+
+
+
+
