@@ -5,13 +5,14 @@ body{
     margin: -10px 0 20px 0;
 }
 .payment-request{
-    background: url(../img/payment_request.png);
+    background: url(../img/payment_request_white.png);
     background-repeat: no-repeat;
     -webkit-background-size: 20%;
     background-size: 25px;
     background-position: 20px 50%;
     padding-left: 10%;
     width: 200px;
+    background-color: black;
 }
 .main-block h2{
     font-size: 22px;
@@ -40,32 +41,33 @@ body{
     margin: 22px 0 0 0;
 }
 .col1{
-    width: 3%;
-    padding: 0;
+    width: 8%;
+    padding-left: 1%;
 }
 .col2{
-    width: 9%;
+    width: 11%;
 }
 .col3{
-    width: 22%;
+    width: 23%;
 }
 .col4{
     width: 15%;
 }
 .col5{
-    width: 15%;
+    width: 11%;
 }
 .col6{
     width: 11%;
     padding: 0;
 }
+.table-head .col6 {
+     padding-left: 0;
+}
 .col7{
-    width: 11%;
-}
-.col8{
+    width: 19%;
     text-align: right;
-    width: 10%;
 }
+
 .table-head{
     height: 60px;
     line-height: 60px;
