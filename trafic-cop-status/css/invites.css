@@ -1,0 +1,177 @@
+body{
+    background: #fff;
+}
+h3{
+    font-weight: 500;
+}
+.main-block-sidebar-open{
+    width: 77%;
+}
+.looking_for{
+    display: inline-block;
+    width: 100%;
+    background: #f7f9fc;
+    border: 1px solid #e1e4eb;
+    height: auto;
+    line-height: normal;
+    padding: 20px 20px 10px 20px;
+    font-weight: 500;
+    margin: 21px 0 10px 0;
+}
+.looking_for_txt{
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.looking_for_txt p{
+    font-size: 15px;
+}
+.buttons{
+    float: right;
+}
+.buttons button{
+    height: 45px;
+    line-height: 41px;
+    border-radius: 40px;
+    margin: 0 0 0 5px;
+}
+.buttons .transparent-button{
+    color: black;
+    width: 90px;
+    background: transparent;
+    border: 1px solid #adadbd;
+}
+.buttons .blue-button{
+    width: 140px;
+    background: #5081fb;
+    color: #fff;
+    border: 1px solid #5081fb;
+}
+.row{
+    padding-left: 35px;
+    padding-top: 13px;
+}
+.input-container{
+    width: 100%;
+}
+.grid-invites{
+    margin-top: 20px;
+    margin-left: 0;
+}
+.grid-invites .item-head {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+
+}
+.grid-invites .grid-invites-item {
+    max-width: 275px;
+    width: 24%;
+    height: 188px;
+    display: inline-block;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    margin: 0 1% 12px 0;
+}
+.grid-invites .grid-invites-item:last-child{
+    margin-right: 0;
+}
+.grid-invites-item .item-qty {
+    font-size: 37px;
+    padding: 0 13px;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 300;
+    color: black;
+    width: 135px;
+}
+.item-footer{
+    border: 0;
+}
+.grid-invites-item .item-head-ellipsis, .item-qty p {
+    color: #adadbd;
+}
+.img-invites-cart{
+    margin: 13px 0 0 42px;
+}
+.schedule-container{
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.21);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 0 15px 0;
+}
+.Activity-invitations{
+    display: inline-block;
+    margin: 10px 0 0 23px;
+}
+.Activity-invitations h5{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+.invite-all {
+    margin: 20px 0 0 50px;
+    vertical-align: middle;
+    box-shadow: 0 4px 12px 0px #633afd;
+    width: 100px;
+    float: right;
+}
+.period{
+    display: inline-block;
+    float: right;
+    width: 295px;
+    margin: 22px 25px 0 0;
+    font-size: 12px;
+}
+#time{
+    display: inline-block;
+    width: 185px;
+    margin: 0 0 0 10px;
+    height: 35px;
+    font-size: 12px;
+    border: 1px solid #e1e4eb;
+    border-radius: 3px;
+    font-weight: 400;
+
+}
+.period .item-head-ellipsis{
+    font-size: 14px;
+    color: #adadbd;
+}
+.invite-this{
+    margin: 10px 0 0 0px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .main-block {
+        padding-left: 0;
+    }
+    .looking_for {
+        font-size: 10px;
+        padding: 0 10px;
+    }
+    .buttons .transparent-button{
+        width: 60px;
+    }
+    .buttons .blue-button {
+        width: 85px;
+    }
+
+    .buttons button {
+        font-size: 10px;
+        height: 35px;
+        line-height: 31px;
+        border-radius: 40px;
+        margin: 0;
+    }
+}
+
