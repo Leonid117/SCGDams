@@ -22,6 +22,7 @@
     <!--<link rel="stylesheet" href="css/docs.theme.min.css">-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/owl.carousel.js"></script>
 
@@ -198,7 +199,9 @@
                 <label for="Member">Find members</label><input value="Name or E-mail" id="Member" type="text"
                                                                class="orderDate">
             </div>
-            <div class="grid-invites items-grid">
+
+
+            <div class="carousel1 owl-carousel owl-theme grid-invites items-grid">
                 <div class="item grid-invites-item">
                     <div class="item-head">
                         <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
@@ -238,6 +241,7 @@
                 </div>
             </div>
 
+
             <div class="schedule-container">
                 <div class="Activity-invitations">
                     <h5>Activity of invitations</h5>
@@ -258,38 +262,78 @@
                 <p>Total users invitae (12)</p>
             </div>
             <button class="add invite-all"><span>+</span>Invite all</button>
+
+
+            <div class="invites-people owl-carousel owl-theme grid-invites items-grid">
+                <div class="item grid-invites-item">
+                    <div class="item-head">
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img class="img-invites-face" src="img/invites-face.png" alt="">
+                    <div class="item-name">Stanislav Khromykh</div>
+                    <div class="item-mail">info@sten.com</div>
+                    <div class="item-footer">
+                        <button class="add invite-all"><span>+</span>Invite</button>
+                    </div>
+                </div>
+                <div class="item grid-invites-item">
+                    <div class="item-head">
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img class="img-invites-face" src="img/invites-face.png" alt="">
+                    <div class="item-name">Stanislav Khromykh</div>
+                    <div class="item-mail">info@sten.com</div>
+                    <div class="item-footer">
+                        <button class="add invite-all"><span>+</span>Invite</button>
+                    </div>
+                </div>
+                <div class="item grid-invites-item">
+                    <div class="item-head">
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img class="img-invites-face" src="img/invites-face.png" alt="">
+                    <div class="item-name">Stanislav Khromykh</div>
+                    <div class="item-mail">info@sten.com</div>
+                    <div class="item-footer">
+                        <button class="add invite-all"><span>+</span>Invite</button>
+                    </div>
+                </div>
+                <div class="item grid-invites-item">
+                    <div class="item-head">
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img class="img-invites-face" src="img/invites-face.png" alt="">
+                    <div class="item-name">Stanislav Khromykh</div>
+                    <div class="item-mail">info@sten.com</div>
+                    <div class="item-footer">
+                        <button class="add invite-all"><span>+</span>Invite</button>
+                    </div>
+                </div>
+                <div class="item grid-invites-item">
+                    <div class="item-head">
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img class="img-invites-face" src="img/invites-face.png" alt="">
+                    <div class="item-name">Stanislav Khromykh</div>
+                    <div class="item-mail">info@sten.com</div>
+                    <div class="item-footer">
+                        <button class="add invite-all"><span>+</span>Invite</button>
+                    </div>
+                </div>
+                <div class="item grid-invites-item">
+                    <div class="item-head">
+                        <a class="item-head-ellipsis" href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img class="img-invites-face" src="img/invites-face.png" alt="">
+                    <div class="item-name">Stanislav Khromykh</div>
+                    <div class="item-mail">info@sten.com</div>
+                    <div class="item-footer">
+                        <button class="add invite-all"><span>+</span>Invite</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-
-
-
-
-
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <h4>1</h4>
-            </div>
-            <div class="item">
-                <h4>2</h4>
-            </div>
-            <div class="item">
-                <h4>3</h4>
-            </div>
-            <div class="item">
-                <h4>4</h4>
-            </div>
-            <div class="item">
-                <h4>5</h4>
-            </div>
-            <div class="item">
-                <h4>6</h4>
-            </div>
-        </div>
-
-
-
-
-
 
 
     </div>
@@ -336,88 +380,155 @@
 </body>
 </html>
 <script>
-
-    Highcharts.chart('schedule', {
-        colors: ['#c9cacc',
-            '#c1b0fe',
-            '#633afd',
-            '#910000',
-            '#1aadce',
-            '#492970',
-            '#f28f43',
-            '#77a1e5',
-            '#c42525',
-            '#a6c96a'],
-        chart: {
-            type: 'areaspline'
-        },
-        title: {
-            text: ''
-        },
-        legend: {
-            layout: 'horizontal',
-            align: 'right',
-            verticalAlign: 'top',
-            x: -60,
-            y: 0,
-            floating: true,
-            borderWidth: 1,
-            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
-        },
-        xAxis: {
-            categories: [
-                '20 jun',
-                '21 jun',
-                '22 jun',
-                '23 jun',
-                '24 jun',
-                '25 jun'
-            ]
-        },
-        yAxis: {
-            title: {
-                text: ''
-            }
-        },
-        tooltip: {
-            shared: true,
-            valueSuffix: ' units'
-        },
-        plotOptions: {
-            areaspline: {
-                fillOpacity: 0.5
-            }
-        },
-        series: [{
-            name: 'Current members',
-            data: [30, 40, 30, 50, 40, 100]
-        }, {
-            name: 'Pending invites',
-            data: [1, 30, 40, 30, 30, 50]
-        }, {
-            name: 'Forecast',
-            data: [2, 30, 50, 30, 70, 50]
-        }]
-    });
-
-
-    $(document).ready(function() {
+    $(document).ready(function () {
         var owl = $('.owl-carousel');
         owl.owlCarousel({
             margin: 10,
-            nav: true,
-            loop: true,
             responsive: {
                 0: {
                     items: 1
+                },
+                425: {
+                  items: 2
                 },
                 600: {
                     items: 3
                 },
                 1000: {
-                    items: 5
+                    items: 4
                 }
             }
-        })
-    })
+        });
+    });
+
+
+
+    if(window.innerWidth < 500){
+        Highcharts.chart('schedule', {
+            colors: ['#c9cacc',
+                '#c1b0fe',
+                '#633afd',
+                '#910000',
+                '#1aadce',
+                '#492970',
+                '#f28f43',
+                '#77a1e5',
+                '#c42525',
+                '#a6c96a'],
+            chart: {
+                type: 'areaspline'
+            },
+            title: {
+                text: ''
+            },
+            legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -60,
+                y: 0,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+            },
+            xAxis: {
+                categories: [
+                    '20 jun',
+                    '21 jun',
+                    '22 jun',
+                    '23 jun',
+                    '24 jun',
+                    '25 jun'
+                ]
+            },
+            yAxis: {
+                title: {
+                    text: ''
+                }
+            },
+            tooltip: {
+                shared: true,
+                valueSuffix: ' units'
+            },
+            plotOptions: {
+                areaspline: {
+                    fillOpacity: 0.5
+                }
+            },
+            series: [{
+                name: 'Current members',
+                data: [30, 40, 30, 50, 40, 100]
+            }, {
+                name: 'Pending invites',
+                data: [1, 30, 40, 30, 30, 50]
+            }, {
+                name: 'Forecast',
+                data: [2, 30, 50, 30, 70, 50]
+            }]
+        });
+    }
+    else {
+        Highcharts.chart('schedule', {
+            colors: ['#c9cacc',
+                '#c1b0fe',
+                '#633afd',
+                '#910000',
+                '#1aadce',
+                '#492970',
+                '#f28f43',
+                '#77a1e5',
+                '#c42525',
+                '#a6c96a'],
+            chart: {
+                type: 'areaspline'
+            },
+            title: {
+                text: ''
+            },
+            legend: {
+                layout: 'horizontal',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -60,
+                y: 0,
+                floating: true,
+                borderWidth: 1,
+                backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'
+            },
+            xAxis: {
+                categories: [
+                    '20 jun',
+                    '21 jun',
+                    '22 jun',
+                    '23 jun',
+                    '24 jun',
+                    '25 jun'
+                ]
+            },
+            yAxis: {
+                title: {
+                    text: ''
+                }
+            },
+            tooltip: {
+                shared: true,
+                valueSuffix: ' units'
+            },
+            plotOptions: {
+                areaspline: {
+                    fillOpacity: 0.5
+                }
+            },
+            series: [{
+                name: 'Current members',
+                data: [30, 40, 30, 50, 40, 100]
+            }, {
+                name: 'Pending invites',
+                data: [1, 30, 40, 30, 30, 50]
+            }, {
+                name: 'Forecast',
+                data: [2, 30, 50, 30, 70, 50]
+            }]
+        });
+    }
 </script>

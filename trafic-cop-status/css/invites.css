@@ -143,27 +143,110 @@ h3{
 .invite-this{
     margin: 10px 0 0 0px;
 }
+.owl-carousel .grid-invites-item{
+    width: 100%;
+}
+.owl-carousel .owl-stage-outer{
+    padding: 10px 0 10px 1px;
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+.carousel1 .owl-dots{
+    display: none;
+}
+.invites-people .item-head{
+    padding: 20px 20px 0px 20px;
+}
+.invites-people.add span {
+    vertical-align: middle;
+    font-size: 24px;
+    margin: -4px 17px 0 0;
+    display: inline-block;
+}
+.invites-people .invite-all{
+    margin: 13px -10px 0 0;
+    width: 90px;
+    height: 24px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    background: #fff;
+    color: #adadbd;
+    box-shadow: none;
+    border: 1px solid #adadbd;
+}
+.invites-people .invite-all:hover{
+    background: #633afd;
+    color: #fff;
+    box-shadow: 0 4px 12px 0px #633afd;
+    border: 0;
 
+}
+.item-mail{
+    margin: 3px 0 0 50px;
+    font-size: 12px;
+    color: #adadbd;
+}
+.item-name{
+    margin: 0 0 0 50px;
+}
+.img-invites-face{
+    margin: -10px 0 10px 50px;
 
-
-
-
-
-
-
+    display: block;
+}
+.owl-theme .owl-dots .owl-dot{
+    width: 10%;
+    max-width: 80px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 100%;
+    height: 7px;
+    margin: 5px 0;
+    background: #e7e7e8;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 0;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #633afd;
+}
+.main-block-sidebar-open {
+    padding-bottom: 15%;
+}
+@media (max-width: 1440px) {
+    .main-block {
+        padding-left: 60px;
+    }
+    .main-block-sidebar-open {
+        width: 99%;
+    }
+}
 @media (max-width: 768px){
+    #schedule{
+        margin-bottom: 70px;
+    }
     .main-block {
         padding-left: 0;
     }
     .looking_for {
         font-size: 10px;
-        padding: 0 10px;
+        padding: 20px 10px;
     }
     .buttons .transparent-button{
         width: 60px;
     }
     .buttons .blue-button {
         width: 85px;
+    }
+    .invite-all {
+        margin: 20px 0 0 10px;
+    }
+    .Activity-invitations h5 {
+        font-size: 14px;
     }
 
     .buttons button {
@@ -174,4 +257,8 @@ h3{
         margin: 0;
     }
 }
-
+@media (max-width: 425px) {
+.invites-people{
+    margin-top: 80px;
+}
+}
